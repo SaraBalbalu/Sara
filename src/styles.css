@@ -36,6 +36,53 @@ html {
   scroll-behavior: smooth;
 }
 
+/* --- Scrollbar personnalisée ------------------------------------------------ */
+
+::-webkit-scrollbar {
+  width: 11px;
+  height: 11px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0b0820;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, var(--violet-strong), #5a3fc0);
+  border-radius: 999px;
+  border: 2.5px solid #0b0820;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--violet);
+}
+
+/* Firefox (ne supporte pas ::-webkit-scrollbar ; scoper ici pour ne pas
+   désactiver le style webkit dans Chromium) */
+@supports (-moz-appearance: none) {
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: var(--violet-strong) #0b0820;
+  }
+}
+
+/* --- Curseur étoilé ----------------------------------------------------------- */
+
+body {
+  cursor:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='22' height='22' viewBox='0 0 22 22'%3E%3Cpath d='M11 1 L13.4 8.6 L21 11 L13.4 13.4 L11 21 L8.6 13.4 L1 11 L8.6 8.6 Z' fill='%23c4b5fd' stroke='%23120e2b' stroke-width='1.2'/%3E%3C/svg%3E")
+      11 11,
+    auto;
+}
+
+a,
+button {
+  cursor:
+    url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Ccircle cx='12' cy='12' r='9.5' fill='none' stroke='%23e8c76e' stroke-width='1.3' opacity='0.75'/%3E%3Cpath d='M12 4 L13.9 10.1 L20 12 L13.9 13.9 L12 20 L10.1 13.9 L4 12 L10.1 10.1 Z' fill='%23e8c76e' stroke='%23120e2b' stroke-width='1.1'/%3E%3C/svg%3E")
+      12 12,
+    pointer;
+}
+
 body {
   font-family: "Outfit", system-ui, sans-serif;
   color: var(--text);

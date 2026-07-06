@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { useI18n } from "../i18n.jsx";
 
 const YT_URL = "https://www.youtube.com/@LadySara01";
@@ -18,6 +19,28 @@ const TikTokIcon = () => (
 export default function Hero({ genshin }) {
   const { t } = useI18n();
   const pfp = genshin?.player?.profilePicture;
+
+  // depuis le hero, un léger coup de molette vers le bas emmène
+  // directement à la section vidéos
+  useEffect(() => {
+    if (window.matchMedia("(prefers-reduced-motion: reduce)").matches) return;
+    let animating = false;
+    const onWheel = (e) => {
+      if (e.deltaY <= 8) return; // uniquement vers le bas
+      if (window.scrollY > window.innerHeight * 0.35) return; // uniquement depuis le hero
+      e.preventDefault();
+      if (animating) return;
+      const target = document.getElementById("videos");
+      if (!target) return;
+      animating = true;
+      target.scrollIntoView({ behavior: "smooth" });
+      setTimeout(() => {
+        animating = false;
+      }, 900);
+    };
+    window.addEventListener("wheel", onWheel, { passive: false });
+    return () => window.removeEventListener("wheel", onWheel);
+  }, []);
 
   return (
     <header className="hero">
