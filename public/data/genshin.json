@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T13:08:30.003Z",
+  "updatedAt": "2026-07-06T14:25:40.717Z",
   "player": {
     "nickname": "Sara",
     "signature": "I love Cynonari (cat/esp/eng)",
@@ -26,7 +26,31 @@
         "es": "Tignari",
         "fr": "Tighnari"
       },
-      "details": null
+      "details": {
+        "stats": {
+          "hp": 17788,
+          "atk": 1420,
+          "def": 735,
+          "em": 357,
+          "critRate": 80.6,
+          "critDmg": 216.3,
+          "er": 100,
+          "elemBonus": 87.4
+        },
+        "constellations": 6,
+        "friendship": 10,
+        "weapon": {
+          "icon": "UI_EquipIcon_Bow_Ayus",
+          "rarity": 5,
+          "level": 90,
+          "refinement": 1,
+          "name": {
+            "en": "Hunter's Path",
+            "es": "Senda de la Cazadora",
+            "fr": "La voie du chasseur"
+          }
+        }
+      }
     },
     {
       "id": 10000071,
@@ -39,7 +63,31 @@
         "es": "Cyno",
         "fr": "Cyno"
       },
-      "details": null
+      "details": {
+        "stats": {
+          "hp": 20073,
+          "atk": 1474,
+          "def": 1160,
+          "em": 313,
+          "critRate": 83.3,
+          "critDmg": 206.6,
+          "er": 125.9,
+          "elemBonus": 46.6
+        },
+        "constellations": 2,
+        "friendship": 10,
+        "weapon": {
+          "icon": "UI_EquipIcon_Pole_Deshret",
+          "rarity": 5,
+          "level": 90,
+          "refinement": 1,
+          "name": {
+            "en": "Staff of the Scarlet Sands",
+            "es": "Báculo de las Arenas Escarlatas",
+            "fr": "Bâton des sables écarlates"
+          }
+        }
+      }
     },
     {
       "id": 10000123,
@@ -52,7 +100,31 @@
         "es": "Durin",
         "fr": "Durin"
       },
-      "details": null
+      "details": {
+        "stats": {
+          "hp": 18869,
+          "atk": 2603,
+          "def": 1063,
+          "em": 42,
+          "critRate": 82,
+          "critDmg": 220.5,
+          "er": 133,
+          "elemBonus": 0
+        },
+        "constellations": 2,
+        "friendship": 10,
+        "weapon": {
+          "icon": "UI_EquipIcon_Sword_Motsognir",
+          "rarity": 5,
+          "level": 90,
+          "refinement": 1,
+          "name": {
+            "en": "Athame Artis",
+            "es": "Athame Artis",
+            "fr": "Athame Artis"
+          }
+        }
+      }
     },
     {
       "id": 10000115,
@@ -65,7 +137,31 @@
         "es": "Dahlia",
         "fr": "Dahlia"
       },
-      "details": null
+      "details": {
+        "stats": {
+          "hp": 37771,
+          "atk": 1102,
+          "def": 685,
+          "em": 61,
+          "critRate": 37.3,
+          "critDmg": 132.4,
+          "er": 176.8,
+          "elemBonus": 0
+        },
+        "constellations": 6,
+        "friendship": 10,
+        "weapon": {
+          "icon": "UI_EquipIcon_Sword_Zephyrus",
+          "rarity": 4,
+          "level": 90,
+          "refinement": 5,
+          "name": {
+            "en": "Favonius Sword",
+            "es": "Espada de Favonius",
+            "fr": "Épée de Favonius"
+          }
+        }
+      }
     },
     {
       "id": 10000101,
@@ -78,7 +174,31 @@
         "es": "Kinich",
         "fr": "Kinich"
       },
-      "details": null
+      "details": {
+        "stats": {
+          "hp": 19209,
+          "atk": 2495,
+          "def": 992,
+          "em": 56,
+          "critRate": 32.4,
+          "critDmg": 215.1,
+          "er": 130.4,
+          "elemBonus": 46.6
+        },
+        "constellations": 3,
+        "friendship": 10,
+        "weapon": {
+          "icon": "UI_EquipIcon_Claymore_EmeraldSword",
+          "rarity": 5,
+          "level": 90,
+          "refinement": 1,
+          "name": {
+            "en": null,
+            "es": null,
+            "fr": null
+          }
+        }
+      }
     },
     {
       "id": 10000047,
@@ -91,7 +211,31 @@
         "es": "Kaedehara Kazuha",
         "fr": "Kaedehara Kazuha"
       },
-      "details": null
+      "details": {
+        "stats": {
+          "hp": 20496,
+          "atk": 1544,
+          "def": 867,
+          "em": 971,
+          "critRate": 33,
+          "critDmg": 62.4,
+          "er": 133.7,
+          "elemBonus": 15
+        },
+        "constellations": 6,
+        "friendship": 10,
+        "weapon": {
+          "icon": "UI_EquipIcon_Sword_Widsith",
+          "rarity": 5,
+          "level": 90,
+          "refinement": 1,
+          "name": {
+            "en": null,
+            "es": null,
+            "fr": null
+          }
+        }
+      }
     },
     {
       "id": 10000120,
@@ -104,7 +248,31 @@
         "es": "Flins",
         "fr": "Flins"
       },
-      "details": null
+      "details": {
+        "stats": {
+          "hp": 18318,
+          "atk": 2394,
+          "def": 983,
+          "em": 171,
+          "critRate": 71.8,
+          "critDmg": 219.8,
+          "er": 116.8,
+          "elemBonus": 0
+        },
+        "constellations": 2,
+        "friendship": 10,
+        "weapon": {
+          "icon": "UI_EquipIcon_Pole_TummaLyhty",
+          "rarity": 5,
+          "level": 90,
+          "refinement": 1,
+          "name": {
+            "en": "Bloodsoaked Ruins",
+            "es": "Ruinas Ensangrentadas",
+            "fr": "Ruines sanglantes"
+          }
+        }
+      }
     },
     {
       "id": 10000127,
@@ -117,7 +285,31 @@
         "es": "Illuga",
         "fr": "Illuga"
       },
-      "details": null
+      "details": {
+        "stats": {
+          "hp": 19591,
+          "atk": 1144,
+          "def": 881,
+          "em": 525,
+          "critRate": 43.1,
+          "critDmg": 110.6,
+          "er": 230.9,
+          "elemBonus": 0
+        },
+        "constellations": 6,
+        "friendship": 9,
+        "weapon": {
+          "icon": "UI_EquipIcon_Pole_Zephyrus",
+          "rarity": 4,
+          "level": 90,
+          "refinement": 5,
+          "name": {
+            "en": "Favonius Lance",
+            "es": "Lanza de Favonius",
+            "fr": "Lance de Favonius"
+          }
+        }
+      }
     },
     {
       "id": 10000114,
@@ -130,7 +322,31 @@
         "es": "Skirk",
         "fr": "Skirk"
       },
-      "details": null
+      "details": {
+        "stats": {
+          "hp": 18080,
+          "atk": 2172,
+          "def": 956,
+          "em": 89,
+          "critRate": 76.4,
+          "critDmg": 201.1,
+          "er": 104.5,
+          "elemBonus": 61.6
+        },
+        "constellations": 6,
+        "friendship": 10,
+        "weapon": {
+          "icon": "UI_EquipIcon_Sword_OuterSword",
+          "rarity": 5,
+          "level": 90,
+          "refinement": 1,
+          "name": {
+            "en": null,
+            "es": null,
+            "fr": null
+          }
+        }
+      }
     },
     {
       "id": 10000089,
@@ -143,7 +359,31 @@
         "es": "Furina",
         "fr": "Furina"
       },
-      "details": null
+      "details": {
+        "stats": {
+          "hp": 33213,
+          "atk": 1189,
+          "def": 881,
+          "em": 37,
+          "critRate": 79,
+          "critDmg": 215.9,
+          "er": 137.6,
+          "elemBonus": 46.6
+        },
+        "constellations": 6,
+        "friendship": 10,
+        "weapon": {
+          "icon": "UI_EquipIcon_Sword_Regalis",
+          "rarity": 5,
+          "level": 90,
+          "refinement": 1,
+          "name": {
+            "en": null,
+            "es": null,
+            "fr": null
+          }
+        }
+      }
     },
     {
       "id": 10000125,
@@ -156,7 +396,31 @@
         "es": "Colombina",
         "fr": "Columbina"
       },
-      "details": null
+      "details": {
+        "stats": {
+          "hp": 37858,
+          "atk": 1018,
+          "def": 596,
+          "em": 178,
+          "critRate": 82.9,
+          "critDmg": 205.8,
+          "er": 163.5,
+          "elemBonus": 0
+        },
+        "constellations": 2,
+        "friendship": 10,
+        "weapon": {
+          "icon": "UI_EquipIcon_Catalyst_Brisingamen",
+          "rarity": 5,
+          "level": 90,
+          "refinement": 1,
+          "name": {
+            "en": null,
+            "es": null,
+            "fr": null
+          }
+        }
+      }
     },
     {
       "id": 10000130,
@@ -169,7 +433,31 @@
         "es": "Linnéa",
         "fr": "Linnea"
       },
-      "details": null
+      "details": {
+        "stats": {
+          "hp": 16722,
+          "atk": 1058,
+          "def": 2648,
+          "em": 122,
+          "critRate": 73.6,
+          "critDmg": 217.5,
+          "er": 128.5,
+          "elemBonus": 0
+        },
+        "constellations": 2,
+        "friendship": 10,
+        "weapon": {
+          "icon": "UI_EquipIcon_Bow_Alkonost",
+          "rarity": 5,
+          "level": 90,
+          "refinement": 1,
+          "name": {
+            "en": null,
+            "es": null,
+            "fr": null
+          }
+        }
+      }
     }
   ]
 }
