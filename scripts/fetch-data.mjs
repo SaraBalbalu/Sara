@@ -9,7 +9,8 @@ import { dirname, join } from "node:path";
 const UID = "701046437";
 const YT_CHANNEL_ID = "UCk1RTSRukrwZ4yp9howY21A";
 const YT_HANDLE = "LadySara01";
-const ENKA_STORE = "https://raw.githubusercontent.com/EnkaNetwork/API-docs/master/store";
+// via jsDelivr plutôt que raw.githubusercontent.com : CDN mis en cache, pas de rate limit
+const ENKA_STORE = "https://cdn.jsdelivr.net/gh/EnkaNetwork/API-docs@master/store";
 const UA = { "User-Agent": "sara-fansite/1.0 (github.com/SaraBalbalu/Sara)" };
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -33,15 +34,57 @@ function decodeEntities(s) {
     .replace(/&#(\d+);/g, (_, n) => String.fromCodePoint(Number(n)));
 }
 
+// fightPropMap : identifiants des stats finales côté Enka
+const FIGHT_PROPS = { hp: "2000", atk: "2001", def: "2002", em: "28", critRate: "20", critDmg: "22", er: "23" };
+// bonus de dégâts élémentaire correspondant à l'élément du personnage
+const ELEM_BONUS_PROP = {
+  pyro: "40", electro: "41", hydro: "42", dendro: "43", anemo: "44", geo: "45", cryo: "46",
+};
+
+function extractDetails(info, element, name) {
+  if (!info?.fightPropMap) return null;
+  const fp = info.fightPropMap;
+  const pct = (v) => Math.round((v ?? 0) * 1000) / 10;
+  const weaponEquip = (info.equipList ?? []).find((e) => e.flat?.itemType === "ITEM_WEAPON");
+  let weapon = null;
+  if (weaponEquip) {
+    weapon = {
+      icon: weaponEquip.flat.icon,
+      rarity: weaponEquip.flat.rankLevel,
+      level: weaponEquip.weapon?.level ?? null,
+      refinement: Object.values(weaponEquip.weapon?.affixMap ?? {})[0] + 1 || null,
+      name: name(weaponEquip.flat.nameTextMapHash),
+    };
+  }
+  return {
+    stats: {
+      hp: Math.round(fp[FIGHT_PROPS.hp] ?? 0),
+      atk: Math.round(fp[FIGHT_PROPS.atk] ?? 0),
+      def: Math.round(fp[FIGHT_PROPS.def] ?? 0),
+      em: Math.round(fp[FIGHT_PROPS.em] ?? 0),
+      critRate: pct(fp[FIGHT_PROPS.critRate]),
+      critDmg: pct(fp[FIGHT_PROPS.critDmg]),
+      er: pct(fp[FIGHT_PROPS.er]),
+      elemBonus: element ? pct(fp[ELEM_BONUS_PROP[element]]) : 0,
+    },
+    constellations: (info.talentIdList ?? []).length,
+    friendship: info.fetterInfo?.expLevel ?? null,
+    weapon,
+  };
+}
+
 async function fetchGenshin() {
   const [enka, chars, loc, pfps] = await Promise.all([
-    getJson(`https://enka.network/api/uid/${UID}?info`),
+    getJson(`https://enka.network/api/uid/${UID}`),
     getJson(`${ENKA_STORE}/characters.json`),
     getJson(`${ENKA_STORE}/loc.json`),
     getJson(`${ENKA_STORE}/pfps.json`),
   ]);
 
   const p = enka.playerInfo;
+  const detailByAvatar = new Map(
+    (enka.avatarInfoList ?? []).map((a) => [a.avatarId, a]),
+  );
   const name = (hash) => ({
     en: loc.en?.[hash] ?? null,
     es: loc.es?.[hash] ?? null,
@@ -63,38 +106,41 @@ async function fetchGenshin() {
   const characters = showcase.map((a) => {
     const id = String(a.avatarId);
     const c = chars[id];
+    let base;
     if (!c || !c.SideIconName) {
       const y = yatta?.en[id];
-      if (!y) {
-        return { id: a.avatarId, level: a.level, element: null, icon: null, rarity: 5, name: null };
-      }
-      return {
+      base = y
+        ? {
+            id: a.avatarId,
+            level: a.level,
+            element: ELEMENTS[y.element] ?? null,
+            icon: y.icon,
+            rarity: y.rank,
+            name: {
+              en: y.name,
+              es: yatta.es[id]?.name ?? y.name,
+              fr: yatta.fr[id]?.name ?? y.name,
+            },
+          }
+        : { id: a.avatarId, level: a.level, element: null, icon: null, rarity: 5, name: null };
+    } else {
+      base = {
         id: a.avatarId,
         level: a.level,
-        element: ELEMENTS[y.element] ?? null,
-        icon: y.icon,
-        rarity: y.rank,
-        name: {
-          en: y.name,
-          es: yatta.es[id]?.name ?? y.name,
-          fr: yatta.fr[id]?.name ?? y.name,
-        },
+        element: ELEMENTS[c.Element] ?? null,
+        icon: c.SideIconName.replace("_Side", ""),
+        rarity: c.QualityType?.startsWith("QUALITY_ORANGE") ? 5 : 4,
+        name: name(c.NameTextMapHash),
       };
     }
-    return {
-      id: a.avatarId,
-      level: a.level,
-      element: ELEMENTS[c.Element] ?? null,
-      icon: c.SideIconName.replace("_Side", ""),
-      rarity: c.QualityType?.startsWith("QUALITY_ORANGE") ? 5 : 4,
-      name: name(c.NameTextMapHash),
-    };
+    // stats détaillées, si Sara a activé « afficher les détails » pour ce perso
+    base.details = extractDetails(detailByAvatar.get(a.avatarId), base.element, name);
+    return base;
   });
 
+  // pas d'UID ni de région dans le JSON publié : l'UID ne doit pas être affiché
   return {
     updatedAt: new Date().toISOString(),
-    uid: enka.uid,
-    region: enka.region,
     player: {
       nickname: p.nickname,
       signature: p.signature ?? "",

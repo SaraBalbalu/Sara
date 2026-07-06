@@ -1,6 +1,7 @@
 import { useEffect, useState } from "react";
 import { I18nProvider } from "./i18n.jsx";
 import Particles from "./components/Particles.jsx";
+import ClickSparkles from "./components/ClickSparkles.jsx";
 import LangSwitcher from "./components/LangSwitcher.jsx";
 import Hero from "./components/Hero.jsx";
 import Videos from "./components/Videos.jsx";
@@ -27,6 +28,7 @@ export default function App() {
   return (
     <I18nProvider>
       <Particles />
+      <ClickSparkles />
       <LangSwitcher />
       <main>
         <Hero genshin={genshin} />

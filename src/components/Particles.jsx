@@ -13,6 +13,9 @@ export default function Particles() {
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     let particles = [];
     let raf = 0;
+    // étoile filante occasionnelle, comme un vœu qui traverse le ciel de Teyvat
+    let shooting = null;
+    let nextShootAt = performance.now() + 4000 + Math.random() * 6000;
 
     function build() {
       canvas.width = window.innerWidth;
@@ -52,6 +55,38 @@ export default function Particles() {
         ctx.fill();
       }
       ctx.globalAlpha = 1;
+
+      if (!shooting && now > nextShootAt) {
+        const fromLeft = Math.random() < 0.5;
+        shooting = {
+          x: canvas.width * (fromLeft ? 0.05 + Math.random() * 0.3 : 0.65 + Math.random() * 0.3),
+          y: canvas.height * (0.05 + Math.random() * 0.3),
+          vx: (fromLeft ? 1 : -1) * (4 + Math.random() * 3),
+          vy: 1.6 + Math.random() * 1.4,
+          life: 1,
+        };
+        nextShootAt = now + 7000 + Math.random() * 9000;
+      }
+      if (shooting) {
+        const s = shooting;
+        const grad = ctx.createLinearGradient(s.x, s.y, s.x - s.vx * 14, s.y - s.vy * 14);
+        grad.addColorStop(0, `rgba(255, 246, 214, ${0.9 * s.life})`);
+        grad.addColorStop(0.4, `rgba(196, 181, 253, ${0.45 * s.life})`);
+        grad.addColorStop(1, "rgba(196, 181, 253, 0)");
+        ctx.strokeStyle = grad;
+        ctx.lineWidth = 2;
+        ctx.lineCap = "round";
+        ctx.beginPath();
+        ctx.moveTo(s.x, s.y);
+        ctx.lineTo(s.x - s.vx * 14, s.y - s.vy * 14);
+        ctx.stroke();
+        s.x += s.vx;
+        s.y += s.vy;
+        s.life -= 0.012;
+        if (s.life <= 0 || s.x < -60 || s.x > canvas.width + 60 || s.y > canvas.height + 60) {
+          shooting = null;
+        }
+      }
       raf = requestAnimationFrame(draw);
     }
 

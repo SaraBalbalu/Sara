@@ -10,8 +10,8 @@ Thème « Fontaine nocturne » inspiré de Genshin Impact (violet, bleu Hydro, o
 - **Hero** — avatar Furina (photo de profil en jeu), liens YouTube et TikTok
 - **Dernières vidéos & Shorts** — récupérés automatiquement du flux RSS de la chaîne
 - **TikTok** — embed officiel du profil créateur
-- **Mon coin Genshin** — stats et vitrine de personnages du compte (UID 701046437), via [Enka.Network](https://enka.network)
-- **À propos** — avec un chat qui miaule si on le caresse 🐾
+- **Mon coin Genshin** — stats et vitrine de personnages du compte de Sara via [Enka.Network](https://enka.network), stats détaillées au clic sur un personnage
+- **À propos** — galerie photo des chats, et un chat qui miaule si on le caresse 🐾
 
 ## Stack
 

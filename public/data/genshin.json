@@ -1,7 +1,5 @@
 {
-  "updatedAt": "2026-07-06T12:22:34.942Z",
-  "uid": "701046437",
-  "region": "EU",
+  "updatedAt": "2026-07-06T13:08:30.003Z",
   "player": {
     "nickname": "Sara",
     "signature": "I love Cynonari (cat/esp/eng)",
@@ -27,7 +25,8 @@
         "en": "Tighnari",
         "es": "Tignari",
         "fr": "Tighnari"
-      }
+      },
+      "details": null
     },
     {
       "id": 10000071,
@@ -39,7 +38,8 @@
         "en": "Cyno",
         "es": "Cyno",
         "fr": "Cyno"
-      }
+      },
+      "details": null
     },
     {
       "id": 10000123,
@@ -51,7 +51,8 @@
         "en": "Durin",
         "es": "Durin",
         "fr": "Durin"
-      }
+      },
+      "details": null
     },
     {
       "id": 10000115,
@@ -63,7 +64,8 @@
         "en": "Dahlia",
         "es": "Dahlia",
         "fr": "Dahlia"
-      }
+      },
+      "details": null
     },
     {
       "id": 10000101,
@@ -75,7 +77,8 @@
         "en": "Kinich",
         "es": "Kinich",
         "fr": "Kinich"
-      }
+      },
+      "details": null
     },
     {
       "id": 10000047,
@@ -87,7 +90,8 @@
         "en": "Kaedehara Kazuha",
         "es": "Kaedehara Kazuha",
         "fr": "Kaedehara Kazuha"
-      }
+      },
+      "details": null
     },
     {
       "id": 10000120,
@@ -99,7 +103,8 @@
         "en": "Flins",
         "es": "Flins",
         "fr": "Flins"
-      }
+      },
+      "details": null
     },
     {
       "id": 10000127,
@@ -111,7 +116,8 @@
         "en": "Illuga",
         "es": "Illuga",
         "fr": "Illuga"
-      }
+      },
+      "details": null
     },
     {
       "id": 10000114,
@@ -123,7 +129,8 @@
         "en": "Skirk",
         "es": "Skirk",
         "fr": "Skirk"
-      }
+      },
+      "details": null
     },
     {
       "id": 10000089,
@@ -135,7 +142,8 @@
         "en": "Furina",
         "es": "Furina",
         "fr": "Furina"
-      }
+      },
+      "details": null
     },
     {
       "id": 10000125,
@@ -147,7 +155,8 @@
         "en": "Columbina",
         "es": "Colombina",
         "fr": "Columbina"
-      }
+      },
+      "details": null
     },
     {
       "id": 10000130,
@@ -159,7 +168,8 @@
         "en": "Linnea",
         "es": "Linnéa",
         "fr": "Linnea"
-      }
+      },
+      "details": null
     }
   ]
 }
