@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-06T14:25:40.717Z",
+  "updatedAt": "2026-07-06T23:34:54.414Z",
   "player": {
     "nickname": "Sara",
     "signature": "I love Cynonari (cat/esp/eng)",
@@ -11,7 +11,7 @@
     "towerStars": 36,
     "theaterAct": 10,
     "theaterStars": 12,
-    "fetterCount": 81,
+    "fetterCount": 82,
     "profilePicture": "UI_AvatarIcon_Furina_Circle"
   },
   "characters": [
@@ -297,7 +297,7 @@
           "elemBonus": 0
         },
         "constellations": 6,
-        "friendship": 9,
+        "friendship": 10,
         "weapon": {
           "icon": "UI_EquipIcon_Pole_Zephyrus",
           "rarity": 4,
@@ -423,38 +423,38 @@
       }
     },
     {
-      "id": 10000130,
-      "level": 100,
-      "element": "geo",
-      "icon": "UI_AvatarIcon_Linnea",
+      "id": 10000107,
+      "level": 90,
+      "element": "cryo",
+      "icon": "UI_AvatarIcon_Citlali",
       "rarity": 5,
       "name": {
-        "en": "Linnea",
-        "es": "Linnéa",
-        "fr": "Linnea"
+        "en": "Citlali",
+        "es": "Citlalí",
+        "fr": "Citlali"
       },
       "details": {
         "stats": {
-          "hp": 16722,
-          "atk": 1058,
-          "def": 2648,
-          "em": 122,
-          "critRate": 73.6,
-          "critDmg": 217.5,
-          "er": 128.5,
+          "hp": 18381,
+          "atk": 1192,
+          "def": 886,
+          "em": 911,
+          "critRate": 41.5,
+          "critDmg": 102.8,
+          "er": 169.3,
           "elemBonus": 0
         },
         "constellations": 2,
         "friendship": 10,
         "weapon": {
-          "icon": "UI_EquipIcon_Bow_Alkonost",
+          "icon": "UI_EquipIcon_Catalyst_Figurines",
           "rarity": 5,
           "level": 90,
           "refinement": 1,
           "name": {
-            "en": null,
-            "es": null,
-            "fr": null
+            "en": "Starcaller's Watch",
+            "es": "Vigía de las Estrellas",
+            "fr": "Veillée d'appel d'étoiles"
           }
         }
       }
