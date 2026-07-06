@@ -1,0 +1,165 @@
+{
+  "updatedAt": "2026-07-06T12:22:34.942Z",
+  "uid": "701046437",
+  "region": "EU",
+  "player": {
+    "nickname": "Sara",
+    "signature": "I love Cynonari (cat/esp/eng)",
+    "level": 60,
+    "worldLevel": 9,
+    "achievements": 1528,
+    "towerFloor": 12,
+    "towerLevel": 3,
+    "towerStars": 36,
+    "theaterAct": 10,
+    "theaterStars": 12,
+    "fetterCount": 81,
+    "profilePicture": "UI_AvatarIcon_Furina_Circle"
+  },
+  "characters": [
+    {
+      "id": 10000069,
+      "level": 100,
+      "element": "dendro",
+      "icon": "UI_AvatarIcon_Tighnari",
+      "rarity": 5,
+      "name": {
+        "en": "Tighnari",
+        "es": "Tignari",
+        "fr": "Tighnari"
+      }
+    },
+    {
+      "id": 10000071,
+      "level": 90,
+      "element": "electro",
+      "icon": "UI_AvatarIcon_Cyno",
+      "rarity": 5,
+      "name": {
+        "en": "Cyno",
+        "es": "Cyno",
+        "fr": "Cyno"
+      }
+    },
+    {
+      "id": 10000123,
+      "level": 100,
+      "element": "pyro",
+      "icon": "UI_AvatarIcon_Durin",
+      "rarity": 5,
+      "name": {
+        "en": "Durin",
+        "es": "Durin",
+        "fr": "Durin"
+      }
+    },
+    {
+      "id": 10000115,
+      "level": 90,
+      "element": "hydro",
+      "icon": "UI_AvatarIcon_Dahlia",
+      "rarity": 4,
+      "name": {
+        "en": "Dahlia",
+        "es": "Dahlia",
+        "fr": "Dahlia"
+      }
+    },
+    {
+      "id": 10000101,
+      "level": 100,
+      "element": "dendro",
+      "icon": "UI_AvatarIcon_Kinich",
+      "rarity": 5,
+      "name": {
+        "en": "Kinich",
+        "es": "Kinich",
+        "fr": "Kinich"
+      }
+    },
+    {
+      "id": 10000047,
+      "level": 90,
+      "element": "anemo",
+      "icon": "UI_AvatarIcon_Kazuha",
+      "rarity": 5,
+      "name": {
+        "en": "Kaedehara Kazuha",
+        "es": "Kaedehara Kazuha",
+        "fr": "Kaedehara Kazuha"
+      }
+    },
+    {
+      "id": 10000120,
+      "level": 90,
+      "element": "electro",
+      "icon": "UI_AvatarIcon_Flins",
+      "rarity": 5,
+      "name": {
+        "en": "Flins",
+        "es": "Flins",
+        "fr": "Flins"
+      }
+    },
+    {
+      "id": 10000127,
+      "level": 90,
+      "element": "geo",
+      "icon": "UI_AvatarIcon_Illuga",
+      "rarity": 4,
+      "name": {
+        "en": "Illuga",
+        "es": "Illuga",
+        "fr": "Illuga"
+      }
+    },
+    {
+      "id": 10000114,
+      "level": 100,
+      "element": "cryo",
+      "icon": "UI_AvatarIcon_SkirkNew",
+      "rarity": 5,
+      "name": {
+        "en": "Skirk",
+        "es": "Skirk",
+        "fr": "Skirk"
+      }
+    },
+    {
+      "id": 10000089,
+      "level": 100,
+      "element": "hydro",
+      "icon": "UI_AvatarIcon_Furina",
+      "rarity": 5,
+      "name": {
+        "en": "Furina",
+        "es": "Furina",
+        "fr": "Furina"
+      }
+    },
+    {
+      "id": 10000125,
+      "level": 100,
+      "element": "hydro",
+      "icon": "UI_AvatarIcon_Columbina",
+      "rarity": 5,
+      "name": {
+        "en": "Columbina",
+        "es": "Colombina",
+        "fr": "Columbina"
+      }
+    },
+    {
+      "id": 10000130,
+      "level": 100,
+      "element": "geo",
+      "icon": "UI_AvatarIcon_Linnea",
+      "rarity": 5,
+      "name": {
+        "en": "Linnea",
+        "es": "Linnéa",
+        "fr": "Linnea"
+      }
+    }
+  ]
+}
