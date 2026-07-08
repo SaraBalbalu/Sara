@@ -1,11 +1,26 @@
 {
-  "updatedAt": "2026-07-08T12:09:30.054Z",
+  "updatedAt": "2026-07-08T22:47:22.517Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "9W0OchdonuE",
+      "title": "Nueva Conflagración Estigia 6.7 - Te muestro mis equipos",
+      "published": "2026-07-08T18:09:18+00:00"
+    },
+    {
+      "id": "515KcKc15Uw",
+      "title": "Porque Sandrone no funciona? Estigia 6.7 - Genshin Impact",
+      "published": "2026-07-08T16:05:35+00:00"
+    },
+    {
+      "id": "zWlB9SOTaX8",
+      "title": "Estigia 6.7 Genshin Impact",
+      "published": "2026-07-08T15:12:35+00:00"
+    },
     {
       "id": "NfEbFfyFCDQ",
       "title": "Teatro Fantasia Modo lunar 6.7 todas las estrellas - Genshin Impact",
@@ -20,19 +35,14 @@
       "id": "e-FNRrEm5YM",
       "title": "Teatro Genshin Impact 6.7",
       "published": "2026-07-02T04:43:14+00:00"
-    },
-    {
-      "id": "tS9q79_zprE",
-      "title": "OMG Genshin Snezhnaya characters!! #genshinimpact #snezhnaya",
-      "published": "2026-06-26T16:31:24+00:00"
-    },
-    {
-      "id": "OOdPf42Se6Y",
-      "title": "NUEVO ABISMO 6.6 🔥🌙  - Genshin Impact #abismo #genshinimpact",
-      "published": "2026-06-16T16:14:35+00:00"
     }
   ],
   "shorts": [
+    {
+      "id": "3DzfDjG6dgw",
+      "title": "¡Stigia sin Sandrone! #genshinimpact #shorts",
+      "published": "2026-07-08T18:19:00+00:00"
+    },
     {
       "id": "b4T6RtuRzLA",
       "title": "How to defeat Hunterknight Gunnhildr EASILY ⚔️ #genshinimpact #shorts",
@@ -67,11 +77,6 @@
       "id": "pAf4jePnb28",
       "title": "Nuevo abismo con Skirk #genshinimpact #shorts",
       "published": "2026-06-17T10:28:52+00:00"
-    },
-    {
-      "id": "8VN7nRUDRMs",
-      "title": "Nuevo abismo con Venti #genshinimpact #shorts",
-      "published": "2026-06-16T19:26:11+00:00"
     }
   ]
 }
