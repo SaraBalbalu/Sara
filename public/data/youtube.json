@@ -1,11 +1,16 @@
 {
-  "updatedAt": "2026-07-08T22:47:22.517Z",
+  "updatedAt": "2026-07-09T16:44:31.065Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "zWlB9SOTaX8",
+      "title": "Estigia 6.7 Genshin Impact",
+      "published": "2026-07-09T03:43:18+00:00"
+    },
     {
       "id": "9W0OchdonuE",
       "title": "Nueva Conflagración Estigia 6.7 - Te muestro mis equipos",
@@ -15,11 +20,6 @@
       "id": "515KcKc15Uw",
       "title": "Porque Sandrone no funciona? Estigia 6.7 - Genshin Impact",
       "published": "2026-07-08T16:05:35+00:00"
-    },
-    {
-      "id": "zWlB9SOTaX8",
-      "title": "Estigia 6.7 Genshin Impact",
-      "published": "2026-07-08T15:12:35+00:00"
     },
     {
       "id": "NfEbFfyFCDQ",
