@@ -1,11 +1,16 @@
 {
-  "updatedAt": "2026-07-11T10:47:08.441Z",
+  "updatedAt": "2026-07-11T22:11:18.804Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "9Ui1YIbxCkA",
+      "title": "Estigia 6.7 Genshin Impact Nivel más dificil",
+      "published": "2026-07-11T16:51:48+00:00"
+    },
     {
       "id": "zWlB9SOTaX8",
       "title": "Estigia 6.7 Genshin Impact",
@@ -30,11 +35,6 @@
       "id": "pymzEbXiD3s",
       "title": "Teatro 6.7 genshin 2 parte",
       "published": "2026-07-02T06:46:59+00:00"
-    },
-    {
-      "id": "e-FNRrEm5YM",
-      "title": "Teatro Genshin Impact 6.7",
-      "published": "2026-07-02T04:43:14+00:00"
     }
   ],
   "shorts": [
@@ -72,11 +72,6 @@
       "id": "99LHRH2i0rw",
       "title": "Is this normal? 😅 #cats #catshorts",
       "published": "2026-06-23T09:54:32+00:00"
-    },
-    {
-      "id": "oZQJZ9cQ7vo",
-      "title": "Snezhnaya Looks INSANE!",
-      "published": "2026-06-18T13:30:03+00:00"
     }
   ]
 }
