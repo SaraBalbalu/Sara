@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-07-16T12:12:11.801Z",
+  "updatedAt": "2026-07-16T22:37:00.887Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "X9ua9n42u8E",
+      "title": "Clearing the new Abyss 6.7 super fast & easy! ⚡️ | Genshin Impact #genshinimpact #abyss",
+      "published": "2026-07-16T16:12:23+00:00"
+    },
+    {
+      "id": "vTWB4_5o__U",
+      "title": "Abyss 6.7 - Abismo 6.7 Genshin Impact",
+      "published": "2026-07-16T14:57:17+00:00"
+    },
     {
       "id": "9Ui1YIbxCkA",
       "title": "Estigia 6.7 Genshin Impact Nivel más dificil",
@@ -25,16 +35,6 @@
       "id": "515KcKc15Uw",
       "title": "Porque Sandrone no funciona? Estigia 6.7 - Genshin Impact",
       "published": "2026-07-08T16:05:35+00:00"
-    },
-    {
-      "id": "NfEbFfyFCDQ",
-      "title": "Teatro Fantasia Modo lunar 6.7 todas las estrellas - Genshin Impact",
-      "published": "2026-07-02T18:35:37+00:00"
-    },
-    {
-      "id": "pymzEbXiD3s",
-      "title": "Teatro 6.7 genshin 2 parte",
-      "published": "2026-07-02T06:46:59+00:00"
     }
   ],
   "shorts": [
@@ -67,11 +67,6 @@
       "id": "IWnFqnvKfJM",
       "title": "My cat every single morning 🐱💤#cats #shorts",
       "published": "2026-07-02T09:30:36+00:00"
-    },
-    {
-      "id": "_DZBog8eqeg",
-      "title": "OMG Mitya I m in love #genshinimpact #snezhnaya",
-      "published": "2026-06-26T16:43:08+00:00"
     }
   ]
 }
