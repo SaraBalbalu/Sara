@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-07-18T11:17:41.921Z",
+  "updatedAt": "2026-07-18T22:10:25.171Z",
   "player": {
     "nickname": "Sara",
     "signature": "I love Cynonari (cat/esp/eng)",
     "level": 60,
     "worldLevel": 9,
-    "achievements": 1528,
+    "achievements": 1532,
     "towerFloor": 12,
     "towerLevel": 3,
     "towerStars": 36,
@@ -386,38 +386,38 @@
       }
     },
     {
-      "id": 10000133,
-      "level": 90,
-      "element": "cryo",
-      "icon": "UI_AvatarIcon_MarionetteNew",
+      "id": 10000125,
+      "level": 100,
+      "element": "hydro",
+      "icon": "UI_AvatarIcon_Columbina",
       "rarity": 5,
       "name": {
-        "en": "Sandrone",
-        "es": "Sandrone",
-        "fr": "Sandrone"
+        "en": "Columbina",
+        "es": "Colombina",
+        "fr": "Columbina"
       },
       "details": {
         "stats": {
-          "hp": 20257,
-          "atk": 2177,
-          "def": 970,
-          "em": 147,
-          "critRate": 83.3,
-          "critDmg": 206.2,
-          "er": 111.7,
+          "hp": 37858,
+          "atk": 1018,
+          "def": 596,
+          "em": 178,
+          "critRate": 82.9,
+          "critDmg": 205.8,
+          "er": 163.5,
           "elemBonus": 0
         },
-        "constellations": 0,
-        "friendship": 1,
+        "constellations": 2,
+        "friendship": 10,
         "weapon": {
-          "icon": "UI_EquipIcon_Claymore_Kione",
-          "rarity": 4,
+          "icon": "UI_EquipIcon_Catalyst_Brisingamen",
+          "rarity": 5,
           "level": 90,
-          "refinement": 5,
+          "refinement": 1,
           "name": {
-            "en": "Serpent Spine",
-            "es": "Médula de la Serpiente Marina",
-            "fr": "Ossature du dragon"
+            "en": null,
+            "es": null,
+            "fr": null
           }
         }
       }
@@ -438,7 +438,7 @@
           "hp": 18381,
           "atk": 1192,
           "def": 886,
-          "em": 911,
+          "em": 936,
           "critRate": 41.5,
           "critDmg": 102.8,
           "er": 169.3,
@@ -450,7 +450,7 @@
           "icon": "UI_EquipIcon_Catalyst_Figurines",
           "rarity": 5,
           "level": 90,
-          "refinement": 1,
+          "refinement": 2,
           "name": {
             "en": "Starcaller's Watch",
             "es": "Vigía de las Estrellas",

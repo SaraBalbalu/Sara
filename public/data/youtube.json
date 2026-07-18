@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-07-18T11:17:49.016Z",
+  "updatedAt": "2026-07-18T22:10:33.003Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "TIohhL2T70A",
+      "title": "Seguimos la misión de mundo y exploración en Genshin Impact",
+      "published": "2026-07-18T18:55:45+00:00"
+    },
+    {
+      "id": "57TbXzMnM1k",
+      "title": "Seguimos la misión de mundo y exploración en Genshin Impact",
+      "published": "2026-07-18T18:55:37+00:00"
+    },
     {
       "id": "vTWB4_5o__U",
       "title": "Abyss 6.7 - Abismo 6.7 Genshin Impact",
@@ -25,16 +35,6 @@
       "id": "zWlB9SOTaX8",
       "title": "Estigia 6.7 Genshin Impact",
       "published": "2026-07-09T03:43:18+00:00"
-    },
-    {
-      "id": "9W0OchdonuE",
-      "title": "Nueva Conflagración Estigia 6.7 - Te muestro mis equipos",
-      "published": "2026-07-08T18:09:18+00:00"
-    },
-    {
-      "id": "515KcKc15Uw",
-      "title": "Porque Sandrone no funciona? Estigia 6.7 - Genshin Impact",
-      "published": "2026-07-08T16:05:35+00:00"
     }
   ],
   "shorts": [
@@ -67,11 +67,6 @@
       "id": "l4nH7hy6OLc",
       "title": "When you forget to bring an archer...  #GenshinImpact #shorts",
       "published": "2026-07-04T17:44:35+00:00"
-    },
-    {
-      "id": "IWnFqnvKfJM",
-      "title": "My cat every single morning 🐱💤#cats #shorts",
-      "published": "2026-07-02T09:30:36+00:00"
     }
   ]
 }
