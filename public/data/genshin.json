@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-07-17T22:09:35.014Z",
+  "updatedAt": "2026-07-18T11:17:41.921Z",
   "player": {
     "nickname": "Sara",
     "signature": "I love Cynonari (cat/esp/eng)",
@@ -386,38 +386,38 @@
       }
     },
     {
-      "id": 10000125,
-      "level": 100,
-      "element": "hydro",
-      "icon": "UI_AvatarIcon_Columbina",
+      "id": 10000133,
+      "level": 90,
+      "element": "cryo",
+      "icon": "UI_AvatarIcon_MarionetteNew",
       "rarity": 5,
       "name": {
-        "en": "Columbina",
-        "es": "Colombina",
-        "fr": "Columbina"
+        "en": "Sandrone",
+        "es": "Sandrone",
+        "fr": "Sandrone"
       },
       "details": {
         "stats": {
-          "hp": 37858,
-          "atk": 1018,
-          "def": 596,
-          "em": 178,
-          "critRate": 82.9,
-          "critDmg": 205.8,
-          "er": 163.5,
+          "hp": 20257,
+          "atk": 2177,
+          "def": 970,
+          "em": 147,
+          "critRate": 83.3,
+          "critDmg": 206.2,
+          "er": 111.7,
           "elemBonus": 0
         },
-        "constellations": 2,
-        "friendship": 10,
+        "constellations": 0,
+        "friendship": 1,
         "weapon": {
-          "icon": "UI_EquipIcon_Catalyst_Brisingamen",
-          "rarity": 5,
+          "icon": "UI_EquipIcon_Claymore_Kione",
+          "rarity": 4,
           "level": 90,
-          "refinement": 1,
+          "refinement": 5,
           "name": {
-            "en": null,
-            "es": null,
-            "fr": null
+            "en": "Serpent Spine",
+            "es": "Médula de la Serpiente Marina",
+            "fr": "Ossature du dragon"
           }
         }
       }
