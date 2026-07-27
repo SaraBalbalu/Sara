@@ -8,6 +8,7 @@ import Videos from "./components/Videos.jsx";
 import TikTok from "./components/TikTok.jsx";
 import Genshin from "./components/Genshin.jsx";
 import About from "./components/About.jsx";
+import Support from "./components/Support.jsx";
 import Footer from "./components/Footer.jsx";
 
 function useJson(path) {
@@ -36,6 +37,7 @@ export default function App() {
         <TikTok />
         <Genshin genshin={genshin} />
         <About />
+        <Support />
       </main>
       <Footer />
     </I18nProvider>

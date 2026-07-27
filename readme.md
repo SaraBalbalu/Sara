@@ -1,55 +1,40 @@
-# ✦ Site de Sara
+# ✦ Sara
 
-Site vitrine de Sara — [YouTube @LadySara01](https://www.youtube.com/@LadySara01) · [TikTok @balbalusara](https://www.tiktok.com/@balbalusara) — hébergé sur GitHub Pages :
-**<https://sarabalbalu.github.io/Sara/>**
+Site vitrine de **Sara**, créatrice de contenu Genshin Impact en català et castellà.
 
-Thème « Fontaine nocturne » inspiré de Genshin Impact (violet, bleu Hydro, or), disponible en **català · español · English · français** (auto-détection de la langue du navigateur).
+**→ [sarabalbalu.github.io/Sara](https://sarabalbalu.github.io/Sara/)**
 
-## Contenu
+[![Déploiement](https://github.com/SaraBalbalu/Sara/actions/workflows/deploy.yml/badge.svg)](https://github.com/SaraBalbalu/Sara/actions/workflows/deploy.yml)
 
-- **Hero** — avatar Furina (photo de profil en jeu), liens YouTube et TikTok
-- **Dernières vidéos & Shorts** — récupérés automatiquement du flux RSS de la chaîne
-- **TikTok** — embed officiel du profil créateur
-- **Mon coin Genshin** — stats et vitrine de personnages du compte de Sara via [Enka.Network](https://enka.network), stats détaillées au clic sur un personnage
-- **À propos** — galerie photo des chats, et un chat qui miaule si on le caresse 🐾
+![Aperçu du site](docs/preview.webp)
 
-## Stack
+## Ce qu'on y trouve
 
-- [React](https://react.dev) + [Vite](https://vite.dev), aucune bibliothèque UI (CSS sur mesure dans `src/styles.css`)
-- Traductions : `src/i18n.jsx`
-- Données : `scripts/fetch-data.mjs` écrit `public/data/{genshin,youtube}.json`
-  - Genshin : API Enka.Network (+ [gi.yatta.moe](https://gi.yatta.moe) pour les personnages trop récents)
-  - YouTube : flux RSS de la chaîne, détection vidéo/Short sans clé API
+- Les dernières vidéos et Shorts de la [chaîne YouTube](https://www.youtube.com/@LadySara01), mis à jour tout seuls
+- Le fil [TikTok](https://www.tiktok.com/@balbalusara) intégré
+- Une vitrine Genshin Impact — stats de jeu et personnages, détaillés au clic
+- La galerie des chats de la maison 🐾
+- Quatre langues — català · español · English · français — détectées automatiquement
 
-## Automatisation (GitHub Actions)
+## Sous le capot
 
-| Workflow | Rôle | Déclencheur |
-| --- | --- | --- |
-| `deploy.yml` | Build Vite + déploiement GitHub Pages | push sur `main`, manuel |
-| `update-data.yml` | Rafraîchit `public/data/`, commit puis redéploie | 2× par jour, manuel |
+Site entièrement statique, sans backend : [React](https://react.dev) + [Vite](https://vite.dev),
+CSS maison, aucune bibliothèque d'interface.
 
-## Mise en route
+Les données sont regénérées deux fois par jour par GitHub Actions, puis servies en JSON :
+le flux RSS de la chaîne pour les vidéos, [Enka.Network](https://enka.network) pour le profil
+Genshin. Aucune clé d'API n'est nécessaire.
 
-1. Pousser le repo sur GitHub
-2. Dans **Settings → Pages**, choisir **Source : GitHub Actions**
-3. C'est tout — chaque push sur `main` redéploie le site, et les données se mettent à jour toutes seules
-
-## Développement local
+## Développement
 
 ```bash
 npm install
-npm run fetch-data   # régénère public/data/*.json
-npm run dev          # serveur de dev
-npm run build        # build de production dans dist/
+npm run dev          # serveur local
+npm run build        # build de production
+npm run fetch-data   # rafraîchit les données YouTube et Genshin
 ```
-
-## Personnalisation rapide
-
-- **Textes / traductions** : `src/i18n.jsx`
-- **Couleurs du thème** : variables CSS en tête de `src/styles.css`
-- **UID Genshin / chaîne YouTube** : constantes en tête de `scripts/fetch-data.mjs`
-- **Nom du repo** : si le repo est renommé, adapter `base` dans `vite.config.js`
 
 ---
 
-Site de fans, sans affiliation avec HoYoverse. Fait avec 💜 pour Sara.
+Site de fans, sans affiliation avec HoYoverse — Genshin Impact et ses ressources appartiennent à HoYoverse.
+Fait avec 💜 pour Sara.

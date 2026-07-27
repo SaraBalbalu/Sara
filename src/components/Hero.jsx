@@ -1,8 +1,9 @@
 import { useEffect } from "react";
 import { useI18n } from "../i18n.jsx";
+import { LINKS } from "../config.js";
 
-const YT_URL = "https://www.youtube.com/@LadySara01";
-const TT_URL = "https://www.tiktok.com/@balbalusara";
+const YT_URL = LINKS.youtube;
+const TT_URL = LINKS.tiktok;
 
 const YouTubeIcon = () => (
   <svg viewBox="0 0 24 24" width="22" height="22" fill="currentColor" aria-hidden="true">

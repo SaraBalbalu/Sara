@@ -1,7 +1,8 @@
 import { useEffect } from "react";
 import { useI18n } from "../i18n.jsx";
+import { LINKS } from "../config.js";
 
-const TT_URL = "https://www.tiktok.com/@balbalusara";
+const TT_URL = LINKS.tiktok;
 
 export default function TikTok() {
   const { t } = useI18n();

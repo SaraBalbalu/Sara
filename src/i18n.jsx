@@ -48,6 +48,16 @@ const STRINGS = {
     "modal.noDetails": "El joc encara no comparteix les estadístiques detallades ✦",
     "modal.close": "Tancar",
     "about.galleryAlt": "Un dels gats de la Sara",
+    "support.title": "Dóna'm suport",
+    "support.subtitle": "Cada cafè ajuda a millorar els vídeos ✦",
+    "support.text":
+      "Els vídeos els faig amb molta il·lusió i amb el material que tinc. Si t'agrada el que faig i vols donar-hi un cop de mà, pots convidar-me a un cafè: em servirà per millorar l'equip i oferir-te vídeos encara millors.",
+    "support.gear.mic": "Un micròfon millor",
+    "support.gear.cam": "Una webcam millor",
+    "support.gear.light": "Millor il·luminació",
+    "support.cta": "Convida'm a un cafè",
+    "support.note": "Totalment opcional — mirar i compartir els vídeos ja m'ajuda moltíssim 💜",
+    "footer.support": "Suport",
   },
   es: {
     "hero.hello": "¡Hola, viajera ✦ hola, viajero!",
@@ -94,6 +104,16 @@ const STRINGS = {
     "modal.noDetails": "El juego aún no comparte las estadísticas detalladas ✦",
     "modal.close": "Cerrar",
     "about.galleryAlt": "Uno de los gatos de Sara",
+    "support.title": "Apóyame",
+    "support.subtitle": "Cada café ayuda a mejorar los vídeos ✦",
+    "support.text":
+      "Hago los vídeos con mucha ilusión y con el material que tengo. Si te gusta lo que hago y quieres echar una mano, puedes invitarme a un café: lo usaré para mejorar el equipo y ofrecerte vídeos aún mejores.",
+    "support.gear.mic": "Un micrófono mejor",
+    "support.gear.cam": "Una webcam mejor",
+    "support.gear.light": "Mejor iluminación",
+    "support.cta": "Invítame a un café",
+    "support.note": "Totalmente opcional — ver y compartir los vídeos ya me ayuda muchísimo 💜",
+    "footer.support": "Apoyo",
   },
   en: {
     "hero.hello": "Hello, traveler ✦",
@@ -140,6 +160,16 @@ const STRINGS = {
     "modal.noDetails": "The game doesn't share detailed stats yet ✦",
     "modal.close": "Close",
     "about.galleryAlt": "One of Sara's cats",
+    "support.title": "Support me",
+    "support.subtitle": "Every coffee helps make better videos ✦",
+    "support.text":
+      "I make my videos with a lot of love and the gear I have. If you enjoy what I do and want to help out, you can buy me a coffee — it goes towards better equipment and even better videos for you.",
+    "support.gear.mic": "A better microphone",
+    "support.gear.cam": "A better webcam",
+    "support.gear.light": "Better lighting",
+    "support.cta": "Buy me a coffee",
+    "support.note": "Completely optional — watching and sharing already helps me so much 💜",
+    "footer.support": "Support",
   },
   fr: {
     "hero.hello": "Salut, voyageuse ✦ salut, voyageur !",
@@ -186,6 +216,16 @@ const STRINGS = {
     "modal.noDetails": "Le jeu ne partage pas encore les stats détaillées ✦",
     "modal.close": "Fermer",
     "about.galleryAlt": "Un des chats de Sara",
+    "support.title": "Soutiens-moi",
+    "support.subtitle": "Chaque café aide à faire de meilleures vidéos ✦",
+    "support.text":
+      "Je fais mes vidéos avec beaucoup d'amour et le matériel que j'ai. Si tu aimes ce que je fais et que tu veux donner un coup de pouce, tu peux m'offrir un café : ça servira à améliorer l'équipement et à te proposer des vidéos encore meilleures.",
+    "support.gear.mic": "Un meilleur micro",
+    "support.gear.cam": "Une meilleure webcam",
+    "support.gear.light": "Un meilleur éclairage",
+    "support.cta": "Offre-moi un café",
+    "support.note": "Totalement optionnel — regarder et partager m'aide déjà énormément 💜",
+    "footer.support": "Soutien",
   },
 };
 
