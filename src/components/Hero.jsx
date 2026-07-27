@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useI18n } from "../i18n.jsx";
-import { LINKS } from "../config.js";
+import { LINKS, kofiUrl } from "../config.js";
+import { KofiCup } from "./Support.jsx";
 
 const YT_URL = LINKS.youtube;
 const TT_URL = LINKS.tiktok;
@@ -20,6 +21,7 @@ const TikTokIcon = () => (
 export default function Hero({ genshin }) {
   const { t } = useI18n();
   const pfp = genshin?.player?.profilePicture;
+  const kofi = kofiUrl();
 
   // depuis le hero, un léger coup de molette vers le bas emmène
   // directement à la section vidéos
@@ -72,6 +74,12 @@ export default function Hero({ genshin }) {
             </span>
           </a>
         </div>
+        {kofi && (
+          <a className="hero-kofi" href={kofi} target="_blank" rel="noreferrer">
+            <KofiCup size={17} />
+            <span>{t("support.title")}</span>
+          </a>
+        )}
       </div>
       <a className="hero-scroll" href="#videos" aria-label={t("hero.scroll")}>
         <span>{t("hero.scroll")}</span>

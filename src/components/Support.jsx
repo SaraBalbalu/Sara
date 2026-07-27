@@ -1,8 +1,8 @@
 import { useI18n } from "../i18n.jsx";
 import { kofiUrl } from "../config.js";
 
-const KofiCup = () => (
-  <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
+export const KofiCup = ({ size = 22 }) => (
+  <svg viewBox="0 0 24 24" width={size} height={size} fill="none" stroke="currentColor" strokeWidth="1.8" aria-hidden="true">
     <path d="M4 6h13v7a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5V6z" strokeLinejoin="round" />
     <path d="M17 8h1.6a2.9 2.9 0 0 1 0 5.8H17" strokeLinejoin="round" />
     <path d="M8 2.6c-.5.7-.5 1.3 0 2M11.5 2.6c-.5.7-.5 1.3 0 2" strokeLinecap="round" />

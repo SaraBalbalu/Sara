@@ -399,6 +399,29 @@ footer {
   box-shadow: 0 6px 24px rgba(232, 199, 110, 0.18);
 }
 
+/* lien tertiaire : présent pour qui le cherche, sans concurrencer
+   les deux boutons principaux */
+.hero-kofi {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 18px;
+  padding: 8px 18px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+  font-size: 0.88rem;
+  font-weight: 500;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s, border-color 0.2s, background 0.2s;
+}
+
+.hero-kofi:hover {
+  color: var(--gold);
+  border-color: rgba(232, 199, 110, 0.42);
+  background: rgba(232, 199, 110, 0.07);
+}
+
 .hero-scroll {
   position: absolute;
   bottom: 26px;
