@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-07-31T22:43:44.314Z",
+  "updatedAt": "2026-08-01T11:47:39.464Z",
   "player": {
     "nickname": "Sara",
-    "signature": "I can use your characters for theatre",
+    "signature": "",
     "level": 60,
     "worldLevel": 9,
     "achievements": 1558,
     "towerFloor": 12,
     "towerLevel": 3,
     "towerStars": 36,
-    "theaterAct": 10,
-    "theaterStars": 12,
+    "theaterAct": null,
+    "theaterStars": null,
     "fetterCount": 84,
     "profilePicture": "UI_AvatarIcon_Furina_Circle"
   },
