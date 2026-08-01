@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T11:47:39.464Z",
+  "updatedAt": "2026-08-01T22:46:57.990Z",
   "player": {
     "nickname": "Sara",
     "signature": "",
@@ -9,9 +9,9 @@
     "towerFloor": 12,
     "towerLevel": 3,
     "towerStars": 36,
-    "theaterAct": null,
-    "theaterStars": null,
-    "fetterCount": 84,
+    "theaterAct": 10,
+    "theaterStars": 12,
+    "fetterCount": 85,
     "profilePicture": "UI_AvatarIcon_Furina_Circle"
   },
   "characters": [

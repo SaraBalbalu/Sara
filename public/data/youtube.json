@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-08-01T11:47:48.694Z",
+  "updatedAt": "2026-08-01T22:47:11.119Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "1HWGcoUaAYQ",
+      "title": "Teatro Fantasia Modo lunar 6.8 todas las estrellas - Genshin Impact",
+      "published": "2026-08-01T20:26:02+00:00"
+    },
+    {
+      "id": "jbuik8tUru4",
+      "title": "Nuevo Teatro Genshin",
+      "published": "2026-08-01T15:41:07+00:00"
+    },
     {
       "id": "jzgi-zT1wUM",
       "title": "Seguimos explorando Genshin",
@@ -25,19 +35,14 @@
       "id": "X9ua9n42u8E",
       "title": "Clearing the new Abyss 6.7 super fast & easy! ⚡️ | Genshin Impact #genshinimpact #abyss",
       "published": "2026-07-16T16:12:23+00:00"
-    },
-    {
-      "id": "9Ui1YIbxCkA",
-      "title": "Estigia 6.7 Genshin Impact Nivel más dificil",
-      "published": "2026-07-11T16:51:48+00:00"
-    },
-    {
-      "id": "zWlB9SOTaX8",
-      "title": "Estigia 6.7 Genshin Impact",
-      "published": "2026-07-09T03:43:18+00:00"
     }
   ],
   "shorts": [
+    {
+      "id": "i8aC5GmYiAo",
+      "title": "The traveler injured death itself 💀 #genshinimpact",
+      "published": "2026-08-01T18:09:27+00:00"
+    },
     {
       "id": "VDfwkVQJA-M",
       "title": "300 Primogems Codes! Redeem Before They Expire! ⚠️",
@@ -72,11 +77,6 @@
       "id": "UT9sLs-77Gs",
       "title": "Sandrone loves Colombina? This moment is so emotional! 😭#shorts #genshinimpact",
       "published": "2026-07-17T17:00:35+00:00"
-    },
-    {
-      "id": "EI044Oo8gZM",
-      "title": "Every morning they attack me 🫣 #shorts #cats",
-      "published": "2026-07-16T08:58:35+00:00"
     }
   ]
 }
