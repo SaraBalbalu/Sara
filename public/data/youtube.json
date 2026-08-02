@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-01T22:47:11.119Z",
+  "updatedAt": "2026-08-02T11:43:12.559Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -7,14 +7,14 @@
   },
   "videos": [
     {
+      "id": "jbuik8tUru4",
+      "title": "Nuevo Teatro Genshin",
+      "published": "2026-08-02T05:12:43+00:00"
+    },
+    {
       "id": "1HWGcoUaAYQ",
       "title": "Teatro Fantasia Modo lunar 6.8 todas las estrellas - Genshin Impact",
       "published": "2026-08-01T20:26:02+00:00"
-    },
-    {
-      "id": "jbuik8tUru4",
-      "title": "Nuevo Teatro Genshin",
-      "published": "2026-08-01T15:41:07+00:00"
     },
     {
       "id": "jzgi-zT1wUM",
@@ -38,6 +38,11 @@
     }
   ],
   "shorts": [
+    {
+      "id": "H55hPNG22pE",
+      "title": "Cómo derrotar a Puñopato 🦆 - Teatro Fantasía 6.8 | Genshin Impact",
+      "published": "2026-08-02T09:20:07+00:00"
+    },
     {
       "id": "i8aC5GmYiAo",
       "title": "The traveler injured death itself 💀 #genshinimpact",
@@ -72,11 +77,6 @@
       "id": "uYAP4ZjKWNo",
       "title": "Frost Moon Shrine of Depths - Genshin Impact",
       "published": "2026-07-21T16:09:12+00:00"
-    },
-    {
-      "id": "UT9sLs-77Gs",
-      "title": "Sandrone loves Colombina? This moment is so emotional! 😭#shorts #genshinimpact",
-      "published": "2026-07-17T17:00:35+00:00"
     }
   ]
 }
