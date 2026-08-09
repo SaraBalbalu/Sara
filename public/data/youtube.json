@@ -1,11 +1,16 @@
 {
-  "updatedAt": "2026-08-09T08:03:50.607Z",
+  "updatedAt": "2026-08-09T19:50:48.863Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "2WtrBsMg75s",
+      "title": "Los personajes de Genshin Impact que DEVOLVERÍA si pudiera #genshinimpact",
+      "published": "2026-08-09T09:30:35+00:00"
+    },
     {
       "id": "jbuik8tUru4",
       "title": "Nuevo Teatro Genshin",
