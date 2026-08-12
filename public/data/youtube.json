@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-08-12T08:41:02.602Z",
+  "updatedAt": "2026-08-12T20:06:04.280Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -23,6 +23,11 @@
     }
   ],
   "shorts": [
+    {
+      "id": "S-lGIbbXshE",
+      "title": "Come in to Snezhnaya ❄️ Genshin Impact",
+      "published": "2026-08-12T14:34:38+00:00"
+    },
     {
       "id": "kyk586mafug",
       "title": "Welcome to Snezhnaya! ❄️ Genshin Impact",
@@ -57,11 +62,6 @@
       "id": "wm8KlHxpSXk",
       "title": "Derrotando a la Pionera Fuentenigma ❄️ - Teatro Fantasía - Genshin Impact",
       "published": "2026-08-02T14:00:17+00:00"
-    },
-    {
-      "id": "n-vhqmr6pfg",
-      "title": "¡Así de fácil cae el Ladrón de Tesoros Élite! ❄️ - Teatro Fantasía 6.8 | Genshin Impact",
-      "published": "2026-08-02T12:00:04+00:00"
     }
   ]
 }
