@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-08-19T07:56:08.211Z",
+  "updatedAt": "2026-08-19T19:42:37.093Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "5QWnjiz8ZRE",
+      "title": "I FINALLY Beat Stygian Onslaught 7.0 on Max Difficulty! 😭 #genshinimpact",
+      "published": "2026-08-19T15:45:57+00:00"
+    },
+    {
+      "id": "rQANP2yhCrc",
+      "title": "STYGIAN ONSLAUGHT of Genshin Impact in multiplayer",
+      "published": "2026-08-19T13:31:34+00:00"
+    },
     {
       "id": "cTNNSmdYLfk",
       "title": "COMPLETANDO EL NUEVO ABISMO 7.0 ❄️🔥 | Genshin Impact",
@@ -23,6 +33,21 @@
     }
   ],
   "shorts": [
+    {
+      "id": "qG0sX_XLflQ",
+      "title": "MAX DIFFICULTY KNUCKLE DUCKLE... 😱 | Stygian Onslaught - #genshinimpact",
+      "published": "2026-08-19T17:15:58+00:00"
+    },
+    {
+      "id": "ot76ivoDD_U",
+      "title": "MAX DIFFICULTY WITHOUT SUPERCONDUCT... 😱 | Chimeric Winged Lion - Stygian Onslaught",
+      "published": "2026-08-19T17:00:24+00:00"
+    },
+    {
+      "id": "7yuUUNhr868",
+      "title": "MAX DIFFICULTY 0s LEFT?! 😱 Stygian Onslaught Veteran Wind Operative - #genshinimpact",
+      "published": "2026-08-19T16:45:22+00:00"
+    },
     {
       "id": "6C54FcEBkG0",
       "title": "YOU ARE NOT READY FOR THIS MAN 😱 Mitya - Genshin Impact #shorts",
@@ -47,21 +72,6 @@
       "id": "mghY1zLAjXM",
       "title": "CÓMO PASARSE la Condena de Coppelius - Abismo 7.0 🔥 #genshinimpact #shorts",
       "published": "2026-08-16T18:00:07+00:00"
-    },
-    {
-      "id": "ZRzVT1iB1BI",
-      "title": "NEW Primogems code ⭐ - Genshin Impact #shorts",
-      "published": "2026-08-16T17:47:56+00:00"
-    },
-    {
-      "id": "5VmcQMntqC0",
-      "title": "Bautista Sacrílego SIN HYDRO - Abismo 7.0 💀#genshinimpact #shorts",
-      "published": "2026-08-16T16:19:32+00:00"
-    },
-    {
-      "id": "NWfo6Yyn7nY",
-      "title": "Finally after 6 years... Snezhnaya!❄️#genshinimpact #snezhnaya",
-      "published": "2026-08-14T16:00:19+00:00"
     }
   ]
 }
