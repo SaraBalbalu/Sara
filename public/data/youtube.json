@@ -1,11 +1,16 @@
 {
-  "updatedAt": "2026-08-27T18:18:50.536Z",
+  "updatedAt": "2026-08-28T19:28:04.072Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "7pVSbds5mV4",
+      "title": "Shooting Genshin Impact",
+      "published": "2026-08-28T18:06:07+00:00"
+    },
     {
       "id": "rQANP2yhCrc",
       "title": "STYGIAN ONSLAUGHT of Genshin Impact in multiplayer",
@@ -18,6 +23,11 @@
     }
   ],
   "shorts": [
+    {
+      "id": "VhOZRgDh6_o",
+      "title": "¡Abriendo los Pop Mart de Tighnari y Kinich! ✨ #genshinimpact #popmart",
+      "published": "2026-08-28T14:53:43+00:00"
+    },
     {
       "id": "B9-ZSxOKcWU",
       "title": "When your boyfriend has to do it for you 😭#genshinimpact",
@@ -52,11 +62,6 @@
       "id": "WQZz6n-qcNQ",
       "title": "Sailor Moon x Genshin Impact Transformation ✨#genshinimpact",
       "published": "2026-08-21T14:30:48+00:00"
-    },
-    {
-      "id": "zf0OvjaCnr8",
-      "title": "¡POR LOS PELOS en Dificultad Máxima! ⏱️😱 Conflagración Estigia 7.0 - #genshinimpact",
-      "published": "2026-08-20T15:13:37+00:00"
     }
   ]
 }
