@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-08-30T12:56:51.137Z",
+  "updatedAt": "2026-08-30T21:54:53.641Z",
   "player": {
     "nickname": "Sara",
     "signature": "",
     "level": 60,
     "worldLevel": 9,
-    "achievements": 1595,
+    "achievements": 1598,
     "towerFloor": 12,
     "towerLevel": 3,
     "towerStars": 36,
     "theaterAct": 10,
     "theaterStars": 12,
-    "fetterCount": 86,
+    "fetterCount": 87,
     "profilePicture": "UI_AvatarIcon_Furina_Circle"
   },
   "characters": [
