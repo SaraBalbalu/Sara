@@ -1,11 +1,16 @@
 {
-  "updatedAt": "2026-09-04T12:09:33.652Z",
+  "updatedAt": "2026-09-04T21:32:10.717Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "SajcM3wQSiw",
+      "title": "Investiga las cadenas que aprisionan al gigante | Misión Completa - Genshin Impact 7.0",
+      "published": "2026-09-04T15:59:04+00:00"
+    },
     {
       "id": "Ycc9fWsRTV8",
       "title": "Laugh at my English while I get ALL STARS & Arcana in Imaginarium Theater 7.0! 🎭 #genshinimpact",
@@ -19,8 +24,18 @@
   ],
   "shorts": [
     {
+      "id": "_dWH9J687DI",
+      "title": "My cat passed away... #cat",
+      "published": "2026-09-04T20:48:12+00:00"
+    },
+    {
+      "id": "3t_TNIcv83Y",
+      "title": "The most romantic scene in Genshin Impact? ❤️ #genshinimpact",
+      "published": "2026-09-04T16:31:42+00:00"
+    },
+    {
       "id": "CnaP359xMrc",
-      "title": "Help, I'm obsessed with Mitya 😭✨#genshinimpact",
+      "title": "Do you like Mitya? 😱 | Genshin Impact #genshinimpact #mitya",
       "published": "2026-09-04T10:30:37+00:00"
     },
     {
@@ -35,7 +50,7 @@
     },
     {
       "id": "U_3-DgQwRAY",
-      "title": "How to EASILY Beat The Last Survivor using Columbina + Inefa! ⚡#genshinimpact",
+      "title": "Columbina + Inefa vs The Last Survivor⚡#genshinimpact #imaginariumtheater",
       "published": "2026-09-02T17:15:33+00:00"
     },
     {
@@ -47,16 +62,6 @@
       "id": "b673Y4tDoTo",
       "title": "HOYOVERSE LOST THEIR MINDS! 30 Free Primogems! 💎🔥 #GenshinImpact",
       "published": "2026-09-01T06:15:36+00:00"
-    },
-    {
-      "id": "hrk9SzBmOrg",
-      "title": "¡CÓMO DERROTAR a los 4 Bosses del Teatro de la Fantasía 7.0! ⚔️📖 #genshinimpact",
-      "published": "2026-08-31T16:18:15+00:00"
-    },
-    {
-      "id": "wmPd047Jx1U",
-      "title": "Imaginarium Theater 7.0 Drops TOMORROW! ⏰ #GenshinImpact",
-      "published": "2026-08-31T09:00:10+00:00"
     }
   ]
 }
