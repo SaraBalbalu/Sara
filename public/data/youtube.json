@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-06T21:24:44.311Z",
+  "updatedAt": "2026-09-07T13:32:23.101Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -24,8 +24,13 @@
   ],
   "shorts": [
     {
+      "id": "8kFNDB5miWA",
+      "title": "All 4 Snezhnaya Shrines of Depths Locations | Genshin Impact 7.0 #genshinimpact #shorts",
+      "published": "2026-09-07T10:00:26+00:00"
+    },
+    {
       "id": "2PT76joxX2s",
-      "title": "My WEIRD Team... #genshinimpact",
+      "title": "What do you think of my team? - #genshinimpact",
       "published": "2026-09-06T10:11:06+00:00"
     },
     {
@@ -45,7 +50,7 @@
     },
     {
       "id": "CnaP359xMrc",
-      "title": "Do you like Mitya? 😱 | Genshin Impact #genshinimpact #mitya",
+      "title": "My obsession... anyone else? | Genshin Impact #genshinimpact #mitya",
       "published": "2026-09-04T10:30:37+00:00"
     },
     {
@@ -57,11 +62,6 @@
       "id": "BmQO8KX1qm4",
       "title": "NO DENDRO? NO PROBLEM! Flins vs Primordial Vishap ⚡ (Lunar Arcanum 2) #genshinimpact",
       "published": "2026-09-02T19:00:54+00:00"
-    },
-    {
-      "id": "U_3-DgQwRAY",
-      "title": "Columbina + Inefa vs The Last Survivor⚡#genshinimpact #imaginariumtheater",
-      "published": "2026-09-02T17:15:33+00:00"
     }
   ]
 }
