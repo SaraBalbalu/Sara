@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-12T21:28:35.930Z",
+  "updatedAt": "2026-09-13T12:45:12.965Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -18,6 +18,11 @@
     }
   ],
   "shorts": [
+    {
+      "id": "H8JXmyrsk9Y",
+      "title": "60 FREE Primogems! NEW Genshin Impact Code 🎁#genshinimpact",
+      "published": "2026-09-13T10:00:15+00:00"
+    },
     {
       "id": "eFOd-nsmTb4",
       "title": "Genshin 7.1: 2 FREE 5-Stars + 1,600 Primogems! 🎁 #genshinimpact",
@@ -52,11 +57,6 @@
       "id": "bclST3FwnNM",
       "title": "Rest easy, sweet angel. Thank you for all the love #cat",
       "published": "2026-09-05T12:50:48+00:00"
-    },
-    {
-      "id": "_dWH9J687DI",
-      "title": "My cat passed away... #cat",
-      "published": "2026-09-04T20:48:12+00:00"
     }
   ]
 }
