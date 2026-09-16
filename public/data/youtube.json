@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-16T12:38:06.028Z",
+  "updatedAt": "2026-09-16T22:13:01.085Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -7,17 +7,27 @@
   },
   "videos": [
     {
+      "id": "-ExkpE-StbE",
+      "title": "🔴 NUEVO ABISMO EN DIRECTO | ¿Conseguiremos las 36★? | Genshin Impact",
+      "published": "2026-09-16T16:30:47+00:00"
+    },
+    {
       "id": "9Sunc6Ly2-k",
       "title": "ENSEÑO MIS MEJORES BUILDS: Los personajes más potentes de mi cuenta - Genshin Impact #genshinimpact",
       "published": "2026-09-06T15:00:01+00:00"
-    },
-    {
-      "id": "SajcM3wQSiw",
-      "title": "Investiga las cadenas que aprisionan al gigante | Misión Completa - Genshin Impact 7.0",
-      "published": "2026-09-04T15:59:04+00:00"
     }
   ],
   "shorts": [
+    {
+      "id": "zBuHgLn6_ts",
+      "title": "Abyss 7.0 Floor 11 Almost Broke Me 😢 #genshinimpact",
+      "published": "2026-09-16T17:50:06+00:00"
+    },
+    {
+      "id": "i6OTE7bLXN0",
+      "title": "New Spiral Abyss 11-1 Is a NIGHTMARE… I Finally Beat It! 😭#genshinimpact",
+      "published": "2026-09-16T14:44:07+00:00"
+    },
     {
       "id": "SE5R540HSqs",
       "title": "NEW Spiral Abyss 7.0 Is Here Tomorrow! 👀 | Genshin Impact",
@@ -47,16 +57,6 @@
       "id": "9TR6R4pUlKc",
       "title": "Follow This Seelie to Unlock a Chest! ❄️ | Genshin Impact 7.0  #genshinimpact #genshin #snezhnaya",
       "published": "2026-09-10T10:15:09+00:00"
-    },
-    {
-      "id": "_QweKE2_kfM",
-      "title": "How to Unlock the 3-Seelie Luxurious Chest in Everfrozen Earth | Genshin 7.0 #genshinimpact",
-      "published": "2026-09-09T10:06:56+00:00"
-    },
-    {
-      "id": "8kFNDB5miWA",
-      "title": "All 4 Shrines of Depths Locations of Snezhnaya | Genshin Impact 7.0 #genshinimpact #shorts",
-      "published": "2026-09-07T10:00:26+00:00"
     }
   ]
 }
