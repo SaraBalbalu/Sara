@@ -1,11 +1,16 @@
 {
-  "updatedAt": "2026-09-17T12:37:22.352Z",
+  "updatedAt": "2026-09-17T22:13:56.819Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "9L5_JWoapXY",
+      "title": "ABISMO 12 es MÁS FÁCIL que el 11-1? 😂 | Genshin Impact 7.0",
+      "published": "2026-09-17T16:00:06+00:00"
+    },
     {
       "id": "-ExkpE-StbE",
       "title": "🔴 NUEVO ABISMO EN DIRECTO | ¿Conseguiremos las 36★? | Genshin Impact",
@@ -18,6 +23,11 @@
     }
   ],
   "shorts": [
+    {
+      "id": "Gj7a8Nqo7Jo",
+      "title": "So… Abyss 11 Really WAS Bugged 💀 | Genshin Impact",
+      "published": "2026-09-17T14:00:01+00:00"
+    },
     {
       "id": "zBuHgLn6_ts",
       "title": "Abyss 7.0 Floor 11 Almost Broke Me 😢 #genshinimpact",
@@ -52,11 +62,6 @@
       "id": "KUK0U2E1XB0",
       "title": "300 FREE Primogems! 🎁 Genshin Impact Livestream Codes #genshinimpact #primogems",
       "published": "2026-09-12T15:50:52+00:00"
-    },
-    {
-      "id": "9TR6R4pUlKc",
-      "title": "Follow This Seelie to Unlock a Chest! ❄️ | Genshin Impact 7.0  #genshinimpact #genshin #snezhnaya",
-      "published": "2026-09-10T10:15:09+00:00"
     }
   ]
 }
