@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T12:47:11.097Z",
+  "updatedAt": "2026-09-23T22:20:49.307Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -23,6 +23,11 @@
     }
   ],
   "shorts": [
+    {
+      "id": "2uRItYNUJcg",
+      "title": "NEW Genshin Code! 💎 Free Primogems - Genshin Impact",
+      "published": "2026-09-23T16:34:49+00:00"
+    },
     {
       "id": "cPwuO91ttMo",
       "title": "Who Did You Pick? I Took Mine From C4 to C5… 👀 - Genshin Impact",
@@ -57,11 +62,6 @@
       "id": "zBuHgLn6_ts",
       "title": "Abyss 7.0 Floor 11 Almost Broke Me 😢 #genshinimpact",
       "published": "2026-09-16T17:50:06+00:00"
-    },
-    {
-      "id": "i6OTE7bLXN0",
-      "title": "New Spiral Abyss 11-1 Is a NIGHTMARE… I Finally Beat It! 😭#genshinimpact",
-      "published": "2026-09-16T14:44:07+00:00"
     }
   ]
 }
