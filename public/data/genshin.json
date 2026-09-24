@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-24T12:45:02.966Z",
+  "updatedAt": "2026-09-24T22:27:44.000Z",
   "player": {
     "nickname": "Sara",
     "signature": "",
@@ -12,7 +12,7 @@
     "theaterAct": 10,
     "theaterStars": 12,
     "fetterCount": 87,
-    "profilePicture": "UI_AvatarIcon_Furina_Circle"
+    "profilePicture": null
   },
   "characters": [
     {
@@ -386,38 +386,38 @@
       }
     },
     {
-      "id": 10000107,
+      "id": 10000140,
       "level": 90,
-      "element": "cryo",
-      "icon": "UI_AvatarIcon_Citlali",
+      "element": "hydro",
+      "icon": "UI_AvatarIcon_Vodyanitsa",
       "rarity": 5,
       "name": {
-        "en": "Citlali",
-        "es": "Citlalí",
-        "fr": "Citlali"
+        "en": "Vodyanitsa",
+        "es": "Vodyanitsa",
+        "fr": "Vodyanitsa"
       },
       "details": {
         "stats": {
-          "hp": 18381,
-          "atk": 1192,
-          "def": 886,
-          "em": 936,
-          "critRate": 41.5,
-          "critDmg": 102.8,
-          "er": 169.3,
+          "hp": 48115,
+          "atk": 1019,
+          "def": 616,
+          "em": 100,
+          "critRate": 13.9,
+          "critDmg": 83.4,
+          "er": 106.5,
           "elemBonus": 0
         },
-        "constellations": 2,
-        "friendship": 10,
+        "constellations": 0,
+        "friendship": 1,
         "weapon": {
-          "icon": "UI_EquipIcon_Catalyst_Figurines",
-          "rarity": 5,
+          "icon": "UI_EquipIcon_Catalyst_Pulpfic",
+          "rarity": 3,
           "level": 90,
-          "refinement": 2,
+          "refinement": 5,
           "name": {
-            "en": "Starcaller's Watch",
-            "es": "Vigía de las Estrellas",
-            "fr": "Veillée d'appel d'étoiles"
+            "en": null,
+            "es": null,
+            "fr": null
           }
         }
       }
