@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-23T22:20:49.307Z",
+  "updatedAt": "2026-09-24T12:45:18.426Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -23,6 +23,11 @@
     }
   ],
   "shorts": [
+    {
+      "id": "30xzOwex7SA",
+      "title": "NEW Genshin Code! 💎 40 Primogems | Genshin Impact #Shorts",
+      "published": "2026-09-24T05:31:42+00:00"
+    },
     {
       "id": "2uRItYNUJcg",
       "title": "NEW Genshin Code! 💎 Free Primogems - Genshin Impact",
@@ -57,11 +62,6 @@
       "id": "Gj7a8Nqo7Jo",
       "title": "So… Abyss 11 Really WAS Bugged 💀 | Genshin Impact",
       "published": "2026-09-17T14:00:01+00:00"
-    },
-    {
-      "id": "zBuHgLn6_ts",
-      "title": "Abyss 7.0 Floor 11 Almost Broke Me 😢 #genshinimpact",
-      "published": "2026-09-16T17:50:06+00:00"
     }
   ]
 }
