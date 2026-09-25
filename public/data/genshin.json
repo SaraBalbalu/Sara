@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-09-24T22:27:44.000Z",
+  "updatedAt": "2026-09-25T22:25:49.196Z",
   "player": {
     "nickname": "Sara",
     "signature": "",
     "level": 60,
     "worldLevel": 9,
-    "achievements": 1627,
+    "achievements": 1628,
     "towerFloor": 12,
     "towerLevel": 3,
     "towerStars": 36,
@@ -388,27 +388,23 @@
     {
       "id": 10000140,
       "level": 90,
-      "element": "hydro",
-      "icon": "UI_AvatarIcon_Vodyanitsa",
+      "element": null,
+      "icon": null,
       "rarity": 5,
-      "name": {
-        "en": "Vodyanitsa",
-        "es": "Vodyanitsa",
-        "fr": "Vodyanitsa"
-      },
+      "name": null,
       "details": {
         "stats": {
-          "hp": 48115,
-          "atk": 1019,
+          "hp": 51049,
+          "atk": 1043,
           "def": 616,
-          "em": 100,
+          "em": 117,
           "critRate": 13.9,
           "critDmg": 83.4,
           "er": 106.5,
           "elemBonus": 0
         },
         "constellations": 0,
-        "friendship": 1,
+        "friendship": 2,
         "weapon": {
           "icon": "UI_EquipIcon_Catalyst_Pulpfic",
           "rarity": 3,
