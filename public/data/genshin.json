@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T14:07:25.642Z",
+  "updatedAt": "2026-09-29T22:59:39.943Z",
   "player": {
     "nickname": "Sara",
     "signature": "",
@@ -398,13 +398,13 @@
       },
       "details": {
         "stats": {
-          "hp": 51049,
-          "atk": 1043,
-          "def": 616,
-          "em": 117,
-          "critRate": 13.9,
-          "critDmg": 83.4,
-          "er": 106.5,
+          "hp": 53654,
+          "atk": 1034,
+          "def": 561,
+          "em": 138,
+          "critRate": 31.4,
+          "critDmg": 101.3,
+          "er": 100,
           "elemBonus": 0
         },
         "constellations": 0,
