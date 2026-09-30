@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-30T13:49:50.512Z",
+  "updatedAt": "2026-09-30T23:03:26.099Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -7,12 +7,27 @@
   },
   "videos": [
     {
+      "id": "hmlfizel4OM",
+      "title": "Estigia 7.1: probando Intrépido | Genshin Impact",
+      "published": "2026-09-30T19:28:46+00:00"
+    },
+    {
+      "id": "aCUMGWbuzh0",
+      "title": "Estigia 7.1 en directo",
+      "published": "2026-09-30T16:31:16+00:00"
+    },
+    {
       "id": "svKPXbnkj0o",
       "title": "Cómo desbloquear el TP oculto de Glupov 🔒 | Los callejones de los infames – Genshin Impact 7.0",
       "published": "2026-09-22T20:32:06+00:00"
     }
   ],
   "shorts": [
+    {
+      "id": "qDKDSTI1ze0",
+      "title": "Imaginarium Theater 7.1 🎭 New Season & Bosses! - Genshin Impact",
+      "published": "2026-09-30T17:49:59+00:00"
+    },
     {
       "id": "llCCKx_jbUE",
       "title": "Stygian 7.1: Bosses & Teams | Genshin Impact",
@@ -47,11 +62,6 @@
       "id": "q8ngS_BNbKg",
       "title": "This Is Why I Pulled for Her… 🧜‍♀️✨ | Genshin Impact #vodyanitsa",
       "published": "2026-09-24T18:09:06+00:00"
-    },
-    {
-      "id": "rEbcc5elncM",
-      "title": "Mitya Materials Guide ⚡ Pre-Farm Now! | Genshin Impact",
-      "published": "2026-09-24T14:00:13+00:00"
     }
   ]
 }

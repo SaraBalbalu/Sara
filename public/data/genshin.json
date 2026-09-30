@@ -1,8 +1,8 @@
 {
-  "updatedAt": "2026-09-30T13:49:31.613Z",
+  "updatedAt": "2026-09-30T23:03:04.936Z",
   "player": {
     "nickname": "Sara",
-    "signature": "",
+    "signature": "We can be friends of the game? I will do nothing",
     "level": 60,
     "worldLevel": 9,
     "achievements": 1636,
@@ -398,8 +398,8 @@
       },
       "details": {
         "stats": {
-          "hp": 53654,
-          "atk": 1034,
+          "hp": 52210,
+          "atk": 694,
           "def": 561,
           "em": 138,
           "critRate": 31.4,
@@ -408,12 +408,12 @@
           "elemBonus": 0
         },
         "constellations": 0,
-        "friendship": 3,
+        "friendship": 4,
         "weapon": {
-          "icon": "UI_EquipIcon_Catalyst_Pulpfic",
-          "rarity": 3,
-          "level": 90,
-          "refinement": 5,
+          "icon": "UI_EquipIcon_Catalyst_Bludnye",
+          "rarity": 5,
+          "level": 20,
+          "refinement": 1,
           "name": {
             "en": null,
             "es": null,
@@ -423,38 +423,38 @@
       }
     },
     {
-      "id": 10000002,
-      "level": 90,
-      "element": "cryo",
-      "icon": "UI_AvatarIcon_Ayaka",
+      "id": 10000143,
+      "level": 80,
+      "element": "anemo",
+      "icon": "UI_AvatarIcon_Vesna",
       "rarity": 5,
       "name": {
-        "en": "Kamisato Ayaka",
-        "es": "Kamisato Ayaka",
-        "fr": "Kamisato Ayaka"
+        "en": "Vesna",
+        "es": "Vesna",
+        "fr": "Vesna"
       },
       "details": {
         "stats": {
-          "hp": 17847,
-          "atk": 2038,
-          "def": 978,
-          "em": 40,
-          "critRate": 41.2,
-          "critDmg": 236.7,
-          "er": 168,
-          "elemBonus": 73.6
+          "hp": 18323,
+          "atk": 2512,
+          "def": 770,
+          "em": 156,
+          "critRate": 68.4,
+          "critDmg": 188.1,
+          "er": 122,
+          "elemBonus": 0
         },
-        "constellations": 6,
-        "friendship": 10,
+        "constellations": 0,
+        "friendship": 2,
         "weapon": {
-          "icon": "UI_EquipIcon_Sword_Narukami",
+          "icon": "UI_EquipIcon_Sword_Samosvist",
           "rarity": 5,
           "level": 90,
           "refinement": 1,
           "name": {
-            "en": "Mistsplitter Reforged",
-            "es": "Reflejo de las Tinieblas",
-            "fr": "Reflet de tranche-brume"
+            "en": null,
+            "es": null,
+            "fr": null
           }
         }
       }
