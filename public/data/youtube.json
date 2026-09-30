@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-29T23:00:00.027Z",
+  "updatedAt": "2026-09-30T13:49:50.512Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -13,6 +13,11 @@
     }
   ],
   "shorts": [
+    {
+      "id": "llCCKx_jbUE",
+      "title": "Stygian 7.1: Bosses & Teams | Genshin Impact",
+      "published": "2026-09-30T09:30:23+00:00"
+    },
     {
       "id": "xQZ8q7U51BU",
       "title": "Stygian Onslaught 7.1: Bosses & Team Guide - Genshin Impact",
@@ -47,11 +52,6 @@
       "id": "rEbcc5elncM",
       "title": "Mitya Materials Guide ⚡ Pre-Farm Now! | Genshin Impact",
       "published": "2026-09-24T14:00:13+00:00"
-    },
-    {
-      "id": "30xzOwex7SA",
-      "title": "NEW Genshin Code! 💎 40 Primogems | Genshin Impact #Shorts",
-      "published": "2026-09-24T05:31:42+00:00"
     }
   ]
 }
