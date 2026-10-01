@@ -1,16 +1,16 @@
 {
-  "updatedAt": "2026-09-30T23:03:04.936Z",
+  "updatedAt": "2026-10-01T14:32:03.733Z",
   "player": {
     "nickname": "Sara",
-    "signature": "We can be friends of the game? I will do nothing",
+    "signature": "She/her Youtube: @LadySara01",
     "level": 60,
     "worldLevel": 9,
     "achievements": 1636,
     "towerFloor": 12,
     "towerLevel": 3,
     "towerStars": 36,
-    "theaterAct": 10,
-    "theaterStars": 12,
+    "theaterAct": null,
+    "theaterStars": null,
     "fetterCount": 87,
     "profilePicture": null
   },
@@ -398,8 +398,8 @@
       },
       "details": {
         "stats": {
-          "hp": 52210,
-          "atk": 694,
+          "hp": 53654,
+          "atk": 1034,
           "def": 561,
           "em": 138,
           "critRate": 31.4,
@@ -410,10 +410,10 @@
         "constellations": 0,
         "friendship": 4,
         "weapon": {
-          "icon": "UI_EquipIcon_Catalyst_Bludnye",
-          "rarity": 5,
-          "level": 20,
-          "refinement": 1,
+          "icon": "UI_EquipIcon_Catalyst_Pulpfic",
+          "rarity": 3,
+          "level": 90,
+          "refinement": 5,
           "name": {
             "en": null,
             "es": null,
