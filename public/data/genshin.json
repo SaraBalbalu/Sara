@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T14:32:03.733Z",
+  "updatedAt": "2026-10-01T23:14:14.242Z",
   "player": {
     "nickname": "Sara",
     "signature": "She/her Youtube: @LadySara01",
@@ -9,8 +9,8 @@
     "towerFloor": 12,
     "towerLevel": 3,
     "towerStars": 36,
-    "theaterAct": null,
-    "theaterStars": null,
+    "theaterAct": 10,
+    "theaterStars": 12,
     "fetterCount": 87,
     "profilePicture": null
   },
@@ -424,7 +424,7 @@
     },
     {
       "id": 10000143,
-      "level": 80,
+      "level": 90,
       "element": "anemo",
       "icon": "UI_AvatarIcon_Vesna",
       "rarity": 5,
@@ -435,11 +435,11 @@
       },
       "details": {
         "stats": {
-          "hp": 18323,
-          "atk": 2512,
-          "def": 770,
+          "hp": 20130,
+          "atk": 2604,
+          "def": 868,
           "em": 156,
-          "critRate": 68.4,
+          "critRate": 73.2,
           "critDmg": 188.1,
           "er": 122,
           "elemBonus": 0

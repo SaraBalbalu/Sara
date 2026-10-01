@@ -1,11 +1,16 @@
 {
-  "updatedAt": "2026-10-01T14:32:21.242Z",
+  "updatedAt": "2026-10-01T23:14:31.891Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "QkNJ-I6Owr0",
+      "title": "Teatro Fantasía 7.1 Lunar: ¡todas las estrellas tras casi 2 horas! 😭 | Genshin Impact",
+      "published": "2026-10-01T19:29:58+00:00"
+    },
     {
       "id": "hmlfizel4OM",
       "title": "Estigia 7.1: probando Intrépido | Genshin Impact",
@@ -15,11 +20,6 @@
       "id": "aCUMGWbuzh0",
       "title": "Estigia 7.1 en directo",
       "published": "2026-09-30T16:31:16+00:00"
-    },
-    {
-      "id": "svKPXbnkj0o",
-      "title": "Cómo desbloquear el TP oculto de Glupov 🔒 | Los callejones de los infames – Genshin Impact 7.0",
-      "published": "2026-09-22T20:32:06+00:00"
     }
   ],
   "shorts": [
