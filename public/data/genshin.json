@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-01T23:14:14.242Z",
+  "updatedAt": "2026-10-02T13:54:38.377Z",
   "player": {
     "nickname": "Sara",
     "signature": "She/her Youtube: @LadySara01",
@@ -398,8 +398,8 @@
       },
       "details": {
         "stats": {
-          "hp": 53654,
-          "atk": 1034,
+          "hp": 57380,
+          "atk": 1120,
           "def": 561,
           "em": 138,
           "critRate": 31.4,
@@ -410,10 +410,10 @@
         "constellations": 0,
         "friendship": 4,
         "weapon": {
-          "icon": "UI_EquipIcon_Catalyst_Pulpfic",
-          "rarity": 3,
-          "level": 90,
-          "refinement": 5,
+          "icon": "UI_EquipIcon_Catalyst_Bludnye",
+          "rarity": 5,
+          "level": 80,
+          "refinement": 1,
           "name": {
             "en": null,
             "es": null,
@@ -445,7 +445,7 @@
           "elemBonus": 0
         },
         "constellations": 0,
-        "friendship": 2,
+        "friendship": 3,
         "weapon": {
           "icon": "UI_EquipIcon_Sword_Samosvist",
           "rarity": 5,
