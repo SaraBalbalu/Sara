@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-03T12:36:33.018Z",
+  "updatedAt": "2026-10-03T22:10:08.986Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -23,6 +23,11 @@
     }
   ],
   "shorts": [
+    {
+      "id": "ReWWgxSmtsA",
+      "title": "Can Vesna Survive THIS Fall? 💀 #GenshinImpact",
+      "published": "2026-10-03T15:27:50+00:00"
+    },
     {
       "id": "mLutji4N9Fc",
       "title": "NEW CODE! 🎁 20 FREE Primos | Genshin Impact #shorts",
@@ -57,11 +62,6 @@
       "id": "maFzeGJAXc8",
       "title": "When Did You Start Playing Genshin? 🎂 #GenshinImpact",
       "published": "2026-09-28T14:26:20+00:00"
-    },
-    {
-      "id": "LCFAB1WqJ78",
-      "title": "I Was Saving for Mitya… Then Vodyanitsa Happened 🫣 | Genshin Impact",
-      "published": "2026-09-27T16:01:04+00:00"
     }
   ]
 }
