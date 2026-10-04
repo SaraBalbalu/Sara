@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-04T13:15:42.634Z",
+  "updatedAt": "2026-10-04T22:21:19.433Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -23,6 +23,11 @@
     }
   ],
   "shorts": [
+    {
+      "id": "HVBYSHgR3Mg",
+      "title": "My Pulls Make NO SENSE! 😭🍀 #GenshinImpact #Vesna",
+      "published": "2026-10-04T16:30:25+00:00"
+    },
     {
       "id": "ReWWgxSmtsA",
       "title": "Can Vesna Survive THIS Fall? 💀 #GenshinImpact",
@@ -57,11 +62,6 @@
       "id": "ynA1yXZTFDA",
       "title": "NEW CODE💎 | Genshin Impact",
       "published": "2026-09-29T08:31:28+00:00"
-    },
-    {
-      "id": "maFzeGJAXc8",
-      "title": "When Did You Start Playing Genshin? 🎂 #GenshinImpact",
-      "published": "2026-09-28T14:26:20+00:00"
     }
   ]
 }
