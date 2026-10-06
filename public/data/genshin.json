@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-06T00:50:46.207Z",
+  "updatedAt": "2026-10-06T14:14:24.472Z",
   "player": {
     "nickname": "Sara",
     "signature": "She/her Youtube: @LadySara01",
@@ -398,8 +398,8 @@
       },
       "details": {
         "stats": {
-          "hp": 57380,
-          "atk": 1055,
+          "hp": 58242,
+          "atk": 1130,
           "def": 621,
           "em": 98,
           "critRate": 39.2,
@@ -412,7 +412,7 @@
         "weapon": {
           "icon": "UI_EquipIcon_Catalyst_Bludnye",
           "rarity": 5,
-          "level": 80,
+          "level": 90,
           "refinement": 1,
           "name": {
             "en": null,
