@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T14:34:04.919Z",
+  "updatedAt": "2026-10-07T23:36:01.924Z",
   "player": {
     "nickname": "Sara",
     "signature": "She/her Youtube: @LadySara01",
@@ -424,7 +424,7 @@
     },
     {
       "id": 10000143,
-      "level": 90,
+      "level": 95,
       "element": "anemo",
       "icon": "UI_AvatarIcon_Vesna",
       "rarity": 5,
@@ -435,9 +435,9 @@
       },
       "details": {
         "stats": {
-          "hp": 20130,
-          "atk": 2604,
-          "def": 868,
+          "hp": 20675,
+          "atk": 2693,
+          "def": 897,
           "em": 156,
           "critRate": 73.2,
           "critDmg": 188.1,
