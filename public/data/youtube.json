@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-07T23:36:21.467Z",
+  "updatedAt": "2026-10-08T14:37:48.946Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -23,6 +23,11 @@
     }
   ],
   "shorts": [
+    {
+      "id": "hCnAyqaG9O8",
+      "title": "Ronova Playable?! 👀 - Genshin Impact",
+      "published": "2026-10-08T14:00:26+00:00"
+    },
     {
       "id": "gY4M6jxDZnE",
       "title": "My Pull Plans 7.1–7.5 | Genshin Impact",
@@ -57,11 +62,6 @@
       "id": "llCCKx_jbUE",
       "title": "Stygian 7.1: Bosses & Teams | Genshin Impact",
       "published": "2026-09-30T09:30:23+00:00"
-    },
-    {
-      "id": "xQZ8q7U51BU",
-      "title": "Stygian Onslaught 7.1: Bosses & Team Guide - Genshin Impact",
-      "published": "2026-09-29T16:42:52+00:00"
     }
   ]
 }
