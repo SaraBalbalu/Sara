@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-10T22:37:21.406Z",
+  "updatedAt": "2026-10-11T14:06:16.978Z",
   "player": {
     "nickname": "Sara",
     "signature": "She/her Youtube: @LadySara01",
@@ -436,12 +436,12 @@
       "details": {
         "stats": {
           "hp": 19613,
-          "atk": 2631,
+          "atk": 2617,
           "def": 806,
-          "em": 124,
-          "critRate": 57.6,
-          "critDmg": 221.6,
-          "er": 143.4,
+          "em": 103,
+          "critRate": 60,
+          "critDmg": 215.4,
+          "er": 153.1,
           "elemBonus": 0
         },
         "constellations": 2,
