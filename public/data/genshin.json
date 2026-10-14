@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-14T12:54:19.099Z",
+  "updatedAt": "2026-10-14T22:19:52.714Z",
   "player": {
     "nickname": "Sara",
     "signature": "She/her Youtube: @LadySara01",
@@ -445,7 +445,7 @@
           "elemBonus": 0
         },
         "constellations": 2,
-        "friendship": 5,
+        "friendship": 6,
         "weapon": {
           "icon": "UI_EquipIcon_Sword_Samosvist",
           "rarity": 5,
