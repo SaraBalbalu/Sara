@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-16T12:29:10.355Z",
+  "updatedAt": "2026-10-16T22:07:16.062Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -7,17 +7,22 @@
   },
   "videos": [
     {
+      "id": "QvzqlWlH8YE",
+      "title": "ABISMO 7.1 con VESNA y SKIRK ⭐ ¡A por las 36 estrellas! - Genshin Impact",
+      "published": "2026-10-16T16:29:25+00:00"
+    },
+    {
       "id": "QkNJ-I6Owr0",
       "title": "Teatro Fantasía 7.1 Lunar: ¡todas las estrellas tras casi 2 horas! 😭 | Genshin Impact",
       "published": "2026-10-01T19:29:58+00:00"
-    },
-    {
-      "id": "hmlfizel4OM",
-      "title": "Estigia 7.1: probando Intrépido | Genshin Impact",
-      "published": "2026-09-30T19:28:46+00:00"
     }
   ],
   "shorts": [
+    {
+      "id": "X3toqIrcjGc",
+      "title": "VESNA Makes This Abyss Boss Look EASY 😈 | Genshin Impact 7.1",
+      "published": "2026-10-16T17:30:15+00:00"
+    },
     {
       "id": "4HIW_A5_0R0",
       "title": "NEW ABYSS TOMORROW! 👀 Bosses & Teams | Genshin Impact 7.1",
@@ -52,11 +57,6 @@
       "id": "hCnAyqaG9O8",
       "title": "Ronova Playable?! 👀 - Genshin Impact",
       "published": "2026-10-08T14:00:26+00:00"
-    },
-    {
-      "id": "gY4M6jxDZnE",
-      "title": "My Pull Plans 7.1–7.5 | Genshin Impact",
-      "published": "2026-10-06T14:26:14+00:00"
     }
   ]
 }
