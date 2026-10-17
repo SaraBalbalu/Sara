@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-17T11:39:11.023Z",
+  "updatedAt": "2026-10-17T16:45:11.413Z",
   "player": {
     "nickname": "Sara",
     "signature": "She/her Youtube: @LadySara01",
@@ -12,7 +12,7 @@
     "theaterAct": 10,
     "theaterStars": 12,
     "fetterCount": 87,
-    "profilePicture": null
+    "profilePicture": "UI_AvatarIcon_Vesna_Circle"
   },
   "characters": [
     {
@@ -119,9 +119,9 @@
           "level": 90,
           "refinement": 1,
           "name": {
-            "en": null,
-            "es": null,
-            "fr": null
+            "en": "Fang of the Mountain King",
+            "es": "Colmillo del Rey de la Montaña",
+            "fr": "Croc du roi de la montagne"
           }
         }
       }
@@ -304,9 +304,9 @@
           "level": 90,
           "refinement": 1,
           "name": {
-            "en": null,
-            "es": null,
-            "fr": null
+            "en": "Freedom-Sworn",
+            "es": "Juramento por la Libertad",
+            "fr": "Serment de la liberté"
           }
         }
       }
@@ -341,9 +341,9 @@
           "level": 90,
           "refinement": 1,
           "name": {
-            "en": null,
-            "es": null,
-            "fr": null
+            "en": "Azurelight",
+            "es": "Fulgor Cerúleo",
+            "fr": "Éclazur"
           }
         }
       }
@@ -378,9 +378,9 @@
           "level": 90,
           "refinement": 1,
           "name": {
-            "en": null,
-            "es": null,
-            "fr": null
+            "en": "Splendor of Tranquil Waters",
+            "es": "Fulgor de las Aguas Calmas",
+            "fr": "Splendeur des eaux calmes"
           }
         }
       }
@@ -415,9 +415,9 @@
           "level": 90,
           "refinement": 1,
           "name": {
-            "en": null,
-            "es": null,
-            "fr": null
+            "en": "Hymn of the Maelstrom",
+            "es": "Himno del Vórtice",
+            "fr": "Hymne dans le maelström"
           }
         }
       }
@@ -452,9 +452,9 @@
           "level": 90,
           "refinement": 1,
           "name": {
-            "en": null,
-            "es": null,
-            "fr": null
+            "en": "Beyond the Chrysalis",
+            "es": "Allende la Crisálida",
+            "fr": "Au-delà de la chrysalide"
           }
         }
       }

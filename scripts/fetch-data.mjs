@@ -2,7 +2,7 @@
 // + dernières vidéos YouTube via le flux RSS) et les écrit dans data/*.json.
 // Lancé par GitHub Actions sur planning (voir .github/workflows/update-data.yml)
 // ou à la main : node scripts/fetch-data.mjs
-import { writeFile, mkdir } from "node:fs/promises";
+import { readFile, writeFile, mkdir } from "node:fs/promises";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
 
@@ -10,7 +10,8 @@ const UID = "701046437";
 const YT_CHANNEL_ID = "UCk1RTSRukrwZ4yp9howY21A";
 const YT_HANDLE = "LadySara01";
 // via jsDelivr plutôt que raw.githubusercontent.com : CDN mis en cache, pas de rate limit
-const ENKA_STORE = "https://cdn.jsdelivr.net/gh/EnkaNetwork/API-docs@master/store";
+// (store/gi/ : l'ancien store/ à la racine n'est plus mis à jour)
+const ENKA_STORE = "https://cdn.jsdelivr.net/gh/EnkaNetwork/API-docs@master/store/gi";
 const UA = { "User-Agent": "sara-fansite/1.0 (github.com/SaraBalbalu/Sara)" };
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
@@ -20,6 +21,9 @@ const ELEMENTS = {
   Water: "hydro", Electric: "electro", Grass: "dendro", Fire: "pyro",
   Ice: "cryo", Wind: "anemo", Rock: "geo",
 };
+
+// le store gi/ donne des chemins "/ui/UI_xxx.png" : on garde juste "UI_xxx"
+const uiName = (path) => path?.replace(/^\/ui\//, "").replace(/\.png$/, "") ?? null;
 
 async function getJson(url) {
   const res = await fetch(url, { headers: UA });
@@ -76,8 +80,8 @@ function extractDetails(info, element, name) {
 async function fetchGenshin() {
   const [enka, chars, loc, pfps] = await Promise.all([
     getJson(`https://enka.network/api/uid/${UID}`),
-    getJson(`${ENKA_STORE}/characters.json`),
-    getJson(`${ENKA_STORE}/loc.json`),
+    getJson(`${ENKA_STORE}/avatars.json`),
+    getJson(`${ENKA_STORE}/locs.json`),
     getJson(`${ENKA_STORE}/pfps.json`),
   ]);
 
@@ -128,7 +132,7 @@ async function fetchGenshin() {
         id: a.avatarId,
         level: a.level,
         element: ELEMENTS[c.Element] ?? null,
-        icon: c.SideIconName.replace("_Side", ""),
+        icon: uiName(c.SideIconName).replace("_Side", ""),
         rarity: c.QualityType?.startsWith("QUALITY_ORANGE") ? 5 : 4,
         name: name(c.NameTextMapHash),
       };
@@ -153,7 +157,7 @@ async function fetchGenshin() {
       theaterAct: p.theaterActIndex ?? null,
       theaterStars: p.theaterStarIndex ?? null,
       fetterCount: p.fetterCount ?? null,
-      profilePicture: pfps[String(p.profilePicture?.id)]?.iconPath ?? null,
+      profilePicture: uiName(pfps[String(p.profilePicture?.id)]?.IconPath),
     },
     characters,
   };
@@ -192,6 +196,18 @@ async function fetchYouTube() {
     ((await isShort(entry.id)) ? shorts : videos).push(entry);
   }
 
+  // Le flux RSS ne contient que les 15 derniers uploads : comme Sara poste
+  // surtout des Shorts, les vidéos longues en sortent vite. On fusionne donc
+  // avec le fichier précédent pour les garder.
+  const previous = await readFile(join(dataDir, "youtube.json"), "utf8")
+    .then(JSON.parse)
+    .catch(() => ({}));
+  const merge = (fresh, old = []) => {
+    const seen = new Set(fresh.map((v) => v.id));
+    return [...fresh, ...old.filter((v) => !seen.has(v.id))]
+      .sort((a, b) => b.published.localeCompare(a.published));
+  };
+
   return {
     updatedAt: new Date().toISOString(),
     channel: {
@@ -199,8 +215,8 @@ async function fetchYouTube() {
       handle: YT_HANDLE,
       url: `https://www.youtube.com/@${YT_HANDLE}`,
     },
-    videos: videos.slice(0, 6),
-    shorts: shorts.slice(0, 8),
+    videos: merge(videos, previous.videos).slice(0, 6),
+    shorts: merge(shorts, previous.shorts).slice(0, 8),
   };
 }
 

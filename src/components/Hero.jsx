@@ -1,4 +1,4 @@
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import { useI18n } from "../i18n.jsx";
 import { LINKS, kofiUrl } from "../config.js";
 import { KofiCup } from "./Support.jsx";
@@ -21,6 +21,7 @@ const TikTokIcon = () => (
 export default function Hero({ genshin }) {
   const { t } = useI18n();
   const pfp = genshin?.player?.profilePicture;
+  const [pfpFailed, setPfpFailed] = useState(false);
   const kofi = kofiUrl();
 
   // depuis le hero, un léger coup de molette vers le bas emmène
@@ -50,8 +51,14 @@ export default function Hero({ genshin }) {
       <div className="hero-aura" aria-hidden="true" />
       <div className="hero-content">
         <div className="hero-avatar">
-          {pfp ? (
-            <img src={`https://enka.network/ui/${pfp}.png`} alt="Sara" width="160" height="160" />
+          {pfp && !pfpFailed ? (
+            <img
+              src={`https://enka.network/ui/${pfp}.png`}
+              alt="Sara"
+              width="160"
+              height="160"
+              onError={() => setPfpFailed(true)}
+            />
           ) : (
             <span className="hero-avatar-fallback" aria-hidden="true">✦</span>
           )}
