@@ -218,9 +218,18 @@ async function fetchYouTube() {
   // Le flux RSS ne contient que les 15 derniers uploads : comme Sara poste
   // surtout des Shorts, les vidéos longues en sortent vite. On fusionne donc
   // avec le fichier précédent pour les garder.
+  // Si le fichier local est illisible (ex. marqueurs de conflit git oubliés),
+  // on repart de la dernière version commitée pour ne pas perdre l'historique.
   const previous = await readFile(join(dataDir, "youtube.json"), "utf8")
     .then(JSON.parse)
-    .catch(() => ({}));
+    .catch(async () => {
+      try {
+        const { execFileSync } = await import("node:child_process");
+        return JSON.parse(execFileSync("git", ["show", "HEAD:public/data/youtube.json"], { cwd: root, encoding: "utf8" }));
+      } catch {
+        return {};
+      }
+    });
   const merge = (fresh, old = []) => {
     const seen = new Set(fresh.map((v) => v.id));
     return [...fresh, ...old.filter((v) => !seen.has(v.id))]
