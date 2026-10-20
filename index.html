@@ -1,5 +1,7 @@
 <!doctype html>
-<html lang="en">
+<!-- lang par défaut : catalan, la langue principale de Sara ; le site le
+     remplace ensuite par la langue détectée (voir src/i18n.jsx) -->
+<html lang="ca">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -49,6 +51,32 @@
       name="twitter:image:alt"
       content="Sara — Genshin Impact, vídeos i gats, en català i castellà"
     />
+    <!-- Données structurées pour Google : relie le site à ses chaînes officielles -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "ProfilePage",
+        "url": "https://sarabalbalu.github.io/Sara/",
+        "name": "Sara ✦ YouTube · TikTok · Genshin Impact",
+        "inLanguage": ["ca", "es", "en", "fr"],
+        "mainEntity": {
+          "@type": "Person",
+          "name": "Sara",
+          "alternateName": ["LadySara01", "balbalusara"],
+          "description": "Creadora de contingut en català i castellà : Genshin Impact, vídeos, Shorts i TikToks.",
+          "image": "https://sarabalbalu.github.io/Sara/og.jpg",
+          "url": "https://sarabalbalu.github.io/Sara/",
+          "sameAs": [
+            "https://www.youtube.com/@LadySara01",
+            "https://www.tiktok.com/@balbalusara",
+            "https://ko-fi.com/balbalu"
+          ]
+        }
+      }
+    </script>
+
+    <link rel="preconnect" href="https://i.ytimg.com" />
+    <link rel="preconnect" href="https://enka.network" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -58,6 +86,16 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- Contenu minimal pour les robots et navigateurs sans JavaScript -->
+    <noscript>
+      <h1>Sara</h1>
+      <p>Creadora de contingut en català i castellà · Genshin Impact, vídeos, Shorts i TikToks.</p>
+      <ul>
+        <li><a href="https://www.youtube.com/@LadySara01">YouTube @LadySara01</a></li>
+        <li><a href="https://www.tiktok.com/@balbalusara">TikTok @balbalusara</a></li>
+        <li><a href="https://ko-fi.com/balbalu">Ko-fi</a></li>
+      </ul>
+    </noscript>
     <script type="module" src="/src/main.jsx"></script>
   </body>
 </html>

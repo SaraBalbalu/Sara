@@ -57,6 +57,8 @@ export default function Hero({ genshin }) {
               alt="Sara"
               width="160"
               height="160"
+              fetchPriority="high"
+              decoding="async"
               onError={() => setPfpFailed(true)}
             />
           ) : (

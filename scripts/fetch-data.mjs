@@ -13,6 +13,9 @@ const YT_HANDLE = "LadySara01";
 // (store/gi/ : l'ancien store/ à la racine n'est plus mis à jour)
 const ENKA_STORE = "https://cdn.jsdelivr.net/gh/EnkaNetwork/API-docs@master/store/gi";
 const UA = { "User-Agent": "sara-fansite/1.0 (github.com/SaraBalbalu/Sara)" };
+// aucune requête ne doit pouvoir bloquer l'Action indéfiniment
+const TIMEOUT_MS = 20_000;
+const timeout = () => AbortSignal.timeout(TIMEOUT_MS);
 
 const root = join(dirname(fileURLToPath(import.meta.url)), "..");
 const dataDir = join(root, "public", "data");
@@ -25,10 +28,17 @@ const ELEMENTS = {
 // le store gi/ donne des chemins "/ui/UI_xxx.png" : on garde juste "UI_xxx"
 const uiName = (path) => path?.replace(/^\/ui\//, "").replace(/\.png$/, "") ?? null;
 
-async function getJson(url) {
-  const res = await fetch(url, { headers: UA });
-  if (!res.ok) throw new Error(`${url} -> HTTP ${res.status}`);
-  return res.json();
+// une seule nouvelle tentative : suffit pour absorber un timeout ou un 5xx passager
+async function getJson(url, retry = true) {
+  try {
+    const res = await fetch(url, { headers: UA, signal: timeout() });
+    if (!res.ok) throw new Error(`${url} -> HTTP ${res.status}`);
+    return await res.json();
+  } catch (err) {
+    if (!retry) throw err;
+    console.warn(`Nouvelle tentative : ${err.message}`);
+    return getJson(url, false);
+  }
 }
 
 function decodeEntities(s) {
@@ -163,23 +173,27 @@ async function fetchGenshin() {
   };
 }
 
+// true = Short, false = vidéo classique, null = impossible à déterminer
 async function isShort(videoId) {
   try {
     const res = await fetch(`https://www.youtube.com/shorts/${videoId}`, {
       method: "HEAD", redirect: "manual",
       // le cookie SOCS évite la redirection RGPD vers consent.youtube.com (UE)
       headers: { ...UA, Cookie: "SOCS=CAI" },
+      signal: timeout(),
     });
-    return res.status === 200; // une vidéo classique redirige vers /watch
+    if (res.status === 200) return true;
+    if (res.status >= 300 && res.status < 400) return false; // redirigé vers /watch
+    return null; // 429, 5xx… : on ne devine pas
   } catch {
-    return false;
+    return null;
   }
 }
 
 async function fetchYouTube() {
   const res = await fetch(
     `https://www.youtube.com/feeds/videos.xml?channel_id=${YT_CHANNEL_ID}`,
-    { headers: UA },
+    { headers: UA, signal: timeout() },
   );
   if (!res.ok) throw new Error(`YouTube RSS -> HTTP ${res.status}`);
   const xml = await res.text();
@@ -188,12 +202,17 @@ async function fetchYouTube() {
     id: e.match(/<yt:videoId>([^<]+)<\/yt:videoId>/)?.[1],
     title: decodeEntities(e.match(/<title>([^<]*)<\/title>/)?.[1] ?? ""),
     published: e.match(/<published>([^<]+)<\/published>/)?.[1],
-  })).filter((e) => e.id);
+  })).filter((e) => e.id && e.published);
 
+  // Si YouTube ne répond pas pour une vidéo, on ne la classe pas au hasard :
+  // comme on fusionne avec le fichier précédent, une erreur de classement
+  // resterait sinon figée. Elle sera reprise au prochain passage.
   const videos = [];
   const shorts = [];
   for (const entry of entries) {
-    ((await isShort(entry.id)) ? shorts : videos).push(entry);
+    const short = await isShort(entry.id);
+    if (short === null) console.warn(`Type inconnu pour ${entry.id}, ignorée ce tour-ci`);
+    else (short ? shorts : videos).push(entry);
   }
 
   // Le flux RSS ne contient que les 15 derniers uploads : comme Sara poste
