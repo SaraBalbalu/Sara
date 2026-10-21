@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-20T22:21:08.269Z",
+  "updatedAt": "2026-10-21T12:58:38.578Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -39,6 +39,11 @@
   ],
   "shorts": [
     {
+      "id": "5WT8YBH_SIU",
+      "title": "Genshin 7.2 Livestream Announced! ❄️ October 23 #Shorts",
+      "published": "2026-10-21T10:30:11+00:00"
+    },
+    {
       "id": "q7xZbkm3xXA",
       "title": "Most Used Characters in Abyss 7.1 👀 - Genshin Impact",
       "published": "2026-10-19T10:00:16+00:00"
@@ -72,11 +77,6 @@
       "id": "o-4afWcW2ho",
       "title": "Vesna C2! 💥 Showcase & Full Builds | Genshin Impact",
       "published": "2026-10-14T14:30:28+00:00"
-    },
-    {
-      "id": "lbUcsk-8_hk",
-      "title": "BEST vs WORST 5-Stars 👀 | Genshin Impact",
-      "published": "2026-10-12T14:00:20+00:00"
     }
   ]
 }
