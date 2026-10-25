@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-25T12:36:07.519Z",
+  "updatedAt": "2026-10-25T21:51:41.071Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -39,6 +39,11 @@
   ],
   "shorts": [
     {
+      "id": "gl1p4ScLfsI",
+      "title": "Mitya: guía y build en 50 segundos ⚡ | Genshin Impact 7.2",
+      "published": "2026-10-25T17:30:33+00:00"
+    },
+    {
       "id": "3pqi3kVejhQ",
       "title": "Mitya Gameplay ⚡ | Genshin Impact 7.2",
       "published": "2026-10-24T18:05:14+00:00"
@@ -72,11 +77,6 @@
       "id": "q7xZbkm3xXA",
       "title": "Most Used Characters in Abyss 7.1 👀 - Genshin Impact",
       "published": "2026-10-19T10:00:16+00:00"
-    },
-    {
-      "id": "BRc6T8-5Ro0",
-      "title": "Skirk Deletes This Boss in Seconds 💀 | Genshin Impact",
-      "published": "2026-10-18T14:31:29+00:00"
     }
   ]
 }
