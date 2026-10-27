@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-26T14:20:57.400Z",
+  "updatedAt": "2026-10-27T13:17:48.098Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -39,6 +39,11 @@
   ],
   "shorts": [
     {
+      "id": "dLOpsKXZxW8",
+      "title": "Teatro Fantasía de NOVIEMBRE 🎭 ¡Personajes, elementos y jefes! | Genshin Impact",
+      "published": "2026-10-26T17:19:38+00:00"
+    },
+    {
       "id": "gl1p4ScLfsI",
       "title": "Mitya: guía y build en 50 segundos ⚡ | Genshin Impact 7.2",
       "published": "2026-10-25T17:30:33+00:00"
@@ -72,11 +77,6 @@
       "id": "5WT8YBH_SIU",
       "title": "Genshin 7.2 Livestream Announced! ❄️ October 23 #Shorts",
       "published": "2026-10-21T10:30:11+00:00"
-    },
-    {
-      "id": "q7xZbkm3xXA",
-      "title": "Most Used Characters in Abyss 7.1 👀 - Genshin Impact",
-      "published": "2026-10-19T10:00:16+00:00"
     }
   ]
 }
