@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T14:16:13.048Z",
+  "updatedAt": "2026-10-30T23:00:25.877Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -39,6 +39,11 @@
   ],
   "shorts": [
     {
+      "id": "Y81bBPGPEpM",
+      "title": "Teatro Fantasía de noviembre 🎭 Guía de jefes y Arcanos | Genshin Impact 7.2",
+      "published": "2026-10-30T19:34:41+00:00"
+    },
+    {
       "id": "Tsq4cRHeeB0",
       "title": "You’re Not Alone, Lumine 💛 | Genshin Impact",
       "published": "2026-10-28T16:27:54+00:00"
@@ -72,11 +77,6 @@
       "id": "VB2P6GTqXE4",
       "title": "MITYA!! FINALLY 😭💜 | Genshin Impact",
       "published": "2026-10-23T08:00:17+00:00"
-    },
-    {
-      "id": "lZHebXMh58U",
-      "title": "Genshin 7.2 Livestream Announced! ❄️ October 23 #Shorts",
-      "published": "2026-10-22T08:29:29+00:00"
     }
   ]
 }
