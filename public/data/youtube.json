@@ -1,11 +1,16 @@
 {
-  "updatedAt": "2026-10-31T22:32:11.552Z",
+  "updatedAt": "2026-11-01T14:18:34.457Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "TtIpiaq-rNI",
+      "title": "¡A por el Teatro Fantasía de NOVIEMBRE! 🎭 | Genshin Impact",
+      "published": "2026-11-01T12:24:50+00:00"
+    },
     {
       "id": "I34nmfjQW9c",
       "title": "Yo después de decir que SOLO tiraría por Mitya… metiendo hasta dinero 🤡💸",
@@ -30,11 +35,6 @@
       "id": "aCUMGWbuzh0",
       "title": "Estigia 7.1 en directo",
       "published": "2026-09-30T16:31:16+00:00"
-    },
-    {
-      "id": "svKPXbnkj0o",
-      "title": "Cómo desbloquear el TP oculto de Glupov 🔒 | Los callejones de los infames – Genshin Impact 7.0",
-      "published": "2026-09-22T20:32:06+00:00"
     }
   ],
   "shorts": [
