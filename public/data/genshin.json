@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-03T15:15:47.626Z",
+  "updatedAt": "2026-11-05T00:24:06.323Z",
   "player": {
     "nickname": "Sara",
     "signature": "She/her Youtube: @LadySara01",
     "level": 60,
     "worldLevel": 9,
-    "achievements": 1641,
+    "achievements": 1646,
     "towerFloor": 12,
     "towerLevel": 3,
     "towerStars": 36,
@@ -275,38 +275,38 @@
       }
     },
     {
-      "id": 10000047,
-      "level": 90,
-      "element": "anemo",
-      "icon": "UI_AvatarIcon_Kazuha",
+      "id": 10000136,
+      "level": 80,
+      "element": "electro",
+      "icon": "UI_AvatarIcon_Mitya",
       "rarity": 5,
       "name": {
-        "en": "Kaedehara Kazuha",
-        "es": "Kaedehara Kazuha",
-        "fr": "Kaedehara Kazuha"
+        "en": "Mitya",
+        "es": "Mitya",
+        "fr": "Mitya"
       },
       "details": {
         "stats": {
-          "hp": 20496,
-          "atk": 1544,
-          "def": 867,
-          "em": 971,
-          "critRate": 33,
-          "critDmg": 62.4,
-          "er": 133.7,
-          "elemBonus": 15
+          "hp": 16060,
+          "atk": 1143,
+          "def": 830,
+          "em": 531,
+          "critRate": 56.3,
+          "critDmg": 244.7,
+          "er": 145.3,
+          "elemBonus": 0
         },
-        "constellations": 6,
-        "friendship": 10,
+        "constellations": 2,
+        "friendship": 1,
         "weapon": {
-          "icon": "UI_EquipIcon_Sword_Widsith",
+          "icon": "UI_EquipIcon_Catalyst_Chernaya",
           "rarity": 5,
-          "level": 90,
+          "level": 70,
           "refinement": 1,
           "name": {
-            "en": "Freedom-Sworn",
-            "es": "Juramento por la Libertad",
-            "fr": "Serment de la liberté"
+            "en": "Starsealed Edict",
+            "es": "Edicto Selloastral",
+            "fr": "Édit d'astre secret"
           }
         }
       }
