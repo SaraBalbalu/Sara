@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-05T15:32:42.864Z",
+  "updatedAt": "2026-11-06T00:21:51.587Z",
   "player": {
     "nickname": "Sara",
     "signature": "She/her Youtube: @LadySara01",
@@ -288,20 +288,20 @@
       "details": {
         "stats": {
           "hp": 16060,
-          "atk": 1143,
+          "atk": 1224,
           "def": 830,
           "em": 531,
           "critRate": 56.3,
-          "critDmg": 244.7,
+          "critDmg": 252.4,
           "er": 145.3,
           "elemBonus": 0
         },
         "constellations": 2,
-        "friendship": 1,
+        "friendship": 2,
         "weapon": {
           "icon": "UI_EquipIcon_Catalyst_Chernaya",
           "rarity": 5,
-          "level": 70,
+          "level": 80,
           "refinement": 1,
           "name": {
             "en": "Starsealed Edict",
