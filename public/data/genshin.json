@@ -1,17 +1,17 @@
 {
-  "updatedAt": "2026-11-07T14:06:34.212Z",
+  "updatedAt": "2026-11-07T22:47:19.698Z",
   "player": {
     "nickname": "Sara",
     "signature": "She/her Youtube: @LadySara01",
     "level": 60,
     "worldLevel": 9,
-    "achievements": 1650,
+    "achievements": 1651,
     "towerFloor": 12,
     "towerLevel": 3,
     "towerStars": 36,
     "theaterAct": 10,
     "theaterStars": 12,
-    "fetterCount": 88,
+    "fetterCount": 89,
     "profilePicture": "UI_AvatarIcon_Vesna_Circle"
   },
   "characters": [
@@ -445,7 +445,7 @@
           "elemBonus": 0
         },
         "constellations": 2,
-        "friendship": 9,
+        "friendship": 10,
         "weapon": {
           "icon": "UI_EquipIcon_Sword_Samosvist",
           "rarity": 5,
