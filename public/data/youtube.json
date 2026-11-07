@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-06T15:07:59.796Z",
+  "updatedAt": "2026-11-07T14:06:55.048Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -39,6 +39,11 @@
   ],
   "shorts": [
     {
+      "id": "SzQfJ2xTMmc",
+      "title": "FINALLY! The Tsaritsa Revealed… But I’m Skipping 🙈 | Genshin Impact",
+      "published": "2026-11-06T17:00:04+00:00"
+    },
+    {
       "id": "8i4VbCsoXN8",
       "title": "Cómo llegar al Anclamareas 📍 Boss de Mitya | Genshin Impact",
       "published": "2026-11-04T18:33:05+00:00"
@@ -72,11 +77,6 @@
       "id": "7Q9NjbLF0rs",
       "title": "¡Vesna C2 ARRASA en el Teatro Fantasia! 💨 | Genshin Impact",
       "published": "2026-11-01T15:11:06+00:00"
-    },
-    {
-      "id": "1mP9H7vCrxU",
-      "title": "¡MAÑANA llega el Teatro Fantasía de NOVIEMBRE! 🎭 | Genshin Impact",
-      "published": "2026-10-31T17:00:21+00:00"
     }
   ]
 }
