@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T14:19:59.783Z",
+  "updatedAt": "2026-11-08T22:55:35.703Z",
   "player": {
     "nickname": "Sara",
     "signature": "She/her Youtube: @LadySara01",
@@ -11,7 +11,7 @@
     "towerStars": 36,
     "theaterAct": 10,
     "theaterStars": 12,
-    "fetterCount": 89,
+    "fetterCount": 90,
     "profilePicture": "UI_AvatarIcon_Vesna_Circle"
   },
   "characters": [
@@ -276,7 +276,7 @@
     },
     {
       "id": 10000136,
-      "level": 80,
+      "level": 90,
       "element": "electro",
       "icon": "UI_AvatarIcon_Mitya",
       "rarity": 5,
@@ -287,21 +287,21 @@
       },
       "details": {
         "stats": {
-          "hp": 16060,
-          "atk": 1224,
-          "def": 830,
+          "hp": 17429,
+          "atk": 1344,
+          "def": 933,
           "em": 531,
           "critRate": 56.3,
-          "critDmg": 252.4,
+          "critDmg": 269.8,
           "er": 145.3,
           "elemBonus": 0
         },
         "constellations": 2,
-        "friendship": 2,
+        "friendship": 3,
         "weapon": {
           "icon": "UI_EquipIcon_Catalyst_Chernaya",
           "rarity": 5,
-          "level": 80,
+          "level": 90,
           "refinement": 1,
           "name": {
             "en": "Starsealed Edict",
@@ -408,7 +408,7 @@
           "elemBonus": 0
         },
         "constellations": 0,
-        "friendship": 9,
+        "friendship": 10,
         "weapon": {
           "icon": "UI_EquipIcon_Catalyst_Bludnye",
           "rarity": 5,

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-08T14:20:14.905Z",
+  "updatedAt": "2026-11-08T22:55:53.118Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
@@ -39,6 +39,11 @@
   ],
   "shorts": [
     {
+      "id": "z9kXqma9whY",
+      "title": "I Finally Have My Full Team! ✨ | Genshin Impact",
+      "published": "2026-11-08T17:00:31+00:00"
+    },
+    {
       "id": "SzQfJ2xTMmc",
       "title": "FINALLY! The Tsaritsa Revealed… But I’m Skipping 🙈 | Genshin Impact",
       "published": "2026-11-06T17:00:04+00:00"
@@ -72,11 +77,6 @@
       "id": "dDyxa94kRQQ",
       "title": "¿MITYA, FURINA o ARMAS? 💎 ¿Por quién vais a tirar? | Genshin Impact",
       "published": "2026-11-02T09:32:07+00:00"
-    },
-    {
-      "id": "7Q9NjbLF0rs",
-      "title": "¡Vesna C2 ARRASA en el Teatro Fantasia! 💨 | Genshin Impact",
-      "published": "2026-11-01T15:11:06+00:00"
     }
   ]
 }
