@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-10T02:11:47.655Z",
+  "updatedAt": "2026-11-10T15:38:06.273Z",
   "player": {
     "nickname": "Sara",
     "signature": "She/her Youtube: @LadySara01",
@@ -201,80 +201,6 @@
       }
     },
     {
-      "id": 10000127,
-      "level": 90,
-      "element": "geo",
-      "icon": "UI_AvatarIcon_Illuga",
-      "rarity": 4,
-      "name": {
-        "en": "Illuga",
-        "es": "Illuga",
-        "fr": "Illuga"
-      },
-      "details": {
-        "stats": {
-          "hp": 19591,
-          "atk": 1144,
-          "def": 881,
-          "em": 525,
-          "critRate": 43.1,
-          "critDmg": 110.6,
-          "er": 230.9,
-          "elemBonus": 0
-        },
-        "constellations": 6,
-        "friendship": 10,
-        "weapon": {
-          "icon": "UI_EquipIcon_Pole_Zephyrus",
-          "rarity": 4,
-          "level": 90,
-          "refinement": 5,
-          "name": {
-            "en": "Favonius Lance",
-            "es": "Lanza de Favonius",
-            "fr": "Lance de Favonius"
-          }
-        }
-      }
-    },
-    {
-      "id": 10000115,
-      "level": 90,
-      "element": "hydro",
-      "icon": "UI_AvatarIcon_Dahlia",
-      "rarity": 4,
-      "name": {
-        "en": "Dahlia",
-        "es": "Dahlia",
-        "fr": "Dahlia"
-      },
-      "details": {
-        "stats": {
-          "hp": 37771,
-          "atk": 1102,
-          "def": 685,
-          "em": 61,
-          "critRate": 37.3,
-          "critDmg": 132.4,
-          "er": 176.8,
-          "elemBonus": 0
-        },
-        "constellations": 6,
-        "friendship": 10,
-        "weapon": {
-          "icon": "UI_EquipIcon_Sword_Zephyrus",
-          "rarity": 4,
-          "level": 90,
-          "refinement": 5,
-          "name": {
-            "en": "Favonius Sword",
-            "es": "Espada de Favonius",
-            "fr": "Épée de Favonius"
-          }
-        }
-      }
-    },
-    {
       "id": 10000136,
       "level": 90,
       "element": "electro",
@@ -307,6 +233,80 @@
             "en": "Starsealed Edict",
             "es": "Edicto Selloastral",
             "fr": "Édit d'astre secret"
+          }
+        }
+      }
+    },
+    {
+      "id": 10000130,
+      "level": 100,
+      "element": "geo",
+      "icon": "UI_AvatarIcon_Linnea",
+      "rarity": 5,
+      "name": {
+        "en": "Linnea",
+        "es": "Linnéa",
+        "fr": "Linnea"
+      },
+      "details": {
+        "stats": {
+          "hp": 16722,
+          "atk": 1058,
+          "def": 2648,
+          "em": 122,
+          "critRate": 73.6,
+          "critDmg": 217.5,
+          "er": 128.5,
+          "elemBonus": 0
+        },
+        "constellations": 2,
+        "friendship": 10,
+        "weapon": {
+          "icon": "UI_EquipIcon_Bow_Alkonost",
+          "rarity": 5,
+          "level": 90,
+          "refinement": 1,
+          "name": {
+            "en": "Golden Frostbound Oath",
+            "es": "Rama del Juramento Escarchado",
+            "fr": "Serment de gel doré"
+          }
+        }
+      }
+    },
+    {
+      "id": 10000125,
+      "level": 100,
+      "element": "hydro",
+      "icon": "UI_AvatarIcon_Columbina",
+      "rarity": 5,
+      "name": {
+        "en": "Columbina",
+        "es": "Colombina",
+        "fr": "Columbina"
+      },
+      "details": {
+        "stats": {
+          "hp": 37858,
+          "atk": 1018,
+          "def": 596,
+          "em": 178,
+          "critRate": 82.9,
+          "critDmg": 205.8,
+          "er": 163.5,
+          "elemBonus": 0
+        },
+        "constellations": 2,
+        "friendship": 10,
+        "weapon": {
+          "icon": "UI_EquipIcon_Catalyst_Brisingamen",
+          "rarity": 5,
+          "level": 90,
+          "refinement": 1,
+          "name": {
+            "en": "Nocturne's Curtain Call",
+            "es": "Nocturno tras el Velo",
+            "fr": "Rappel de la nocturne"
           }
         }
       }
