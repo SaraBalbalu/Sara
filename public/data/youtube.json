@@ -1,11 +1,16 @@
 {
-  "updatedAt": "2026-11-15T14:48:51.813Z",
+  "updatedAt": "2026-11-15T23:24:26.418Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "i1ejPk6F8Ak",
+      "title": "Cómo encontrar y desbloquear al Asperizo arcaico | Genshin Impact 7.2",
+      "published": "2026-11-15T17:00:30+00:00"
+    },
     {
       "id": "_cp85YXfbo4",
       "title": "¡Probamos Estigia 7.2! ⚔️ | Genshin Impact ",
@@ -30,11 +35,6 @@
       "id": "QvzqlWlH8YE",
       "title": "ABISMO 7.1 con VESNA y SKIRK ⭐ ¡A por las 36 estrellas! - Genshin Impact",
       "published": "2026-10-16T16:29:25+00:00"
-    },
-    {
-      "id": "QkNJ-I6Owr0",
-      "title": "Teatro Fantasía 7.1 Lunar: ¡todas las estrellas tras casi 2 horas! 😭 | Genshin Impact",
-      "published": "2026-10-01T19:29:58+00:00"
     }
   ],
   "shorts": [
