@@ -1,11 +1,21 @@
 {
-  "updatedAt": "2026-11-15T23:24:26.418Z",
+  "updatedAt": "2026-11-16T17:06:06.075Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "7lR9a5izsuc",
+      "title": "Haciendo el Abismo 7.2 con Mitya ⚡ | Genshin Impact",
+      "published": "2026-11-16T16:53:56+00:00"
+    },
+    {
+      "id": "h0OciI0d7dQ",
+      "title": "Abismo 7.2",
+      "published": "2026-11-16T15:51:22+00:00"
+    },
     {
       "id": "i1ejPk6F8Ak",
       "title": "Cómo encontrar y desbloquear al Asperizo arcaico | Genshin Impact 7.2",
@@ -25,19 +35,14 @@
       "id": "TtIpiaq-rNI",
       "title": "¡A por el Teatro Fantasía de NOVIEMBRE! 🎭 | Genshin Impact",
       "published": "2026-11-01T12:24:50+00:00"
-    },
-    {
-      "id": "I34nmfjQW9c",
-      "title": "Yo después de decir que SOLO tiraría por Mitya… metiendo hasta dinero 🤡💸",
-      "published": "2026-10-20T13:11:15+00:00"
-    },
-    {
-      "id": "QvzqlWlH8YE",
-      "title": "ABISMO 7.1 con VESNA y SKIRK ⭐ ¡A por las 36 estrellas! - Genshin Impact",
-      "published": "2026-10-16T16:29:25+00:00"
     }
   ],
   "shorts": [
+    {
+      "id": "HOXDHT2mcOs",
+      "title": "40 FREE Primogems 💎 ArchonsAnswers | Genshin Impact Code",
+      "published": "2026-11-16T10:00:02+00:00"
+    },
     {
       "id": "axhnHS_cdok",
       "title": "Spiral Abyss 7.2 Floor 12 Guide ⚔️ Teams & Boss Counters | Genshin Impact",
@@ -72,11 +77,6 @@
       "id": "z9kXqma9whY",
       "title": "I Finally Have My Full Team! ✨ | Genshin Impact",
       "published": "2026-11-08T17:00:31+00:00"
-    },
-    {
-      "id": "SzQfJ2xTMmc",
-      "title": "FINALLY! The Tsaritsa Revealed… But I’m Skipping 🙈 | Genshin Impact",
-      "published": "2026-11-06T17:00:04+00:00"
     }
   ]
 }
