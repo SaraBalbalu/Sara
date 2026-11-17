@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-17T02:29:30.964Z",
+  "updatedAt": "2026-11-17T16:55:29.945Z",
   "player": {
     "nickname": "Sara",
     "signature": "She/her Youtube: @LadySara01",
@@ -223,7 +223,7 @@
           "elemBonus": 0
         },
         "constellations": 2,
-        "friendship": 4,
+        "friendship": 5,
         "weapon": {
           "icon": "UI_EquipIcon_Catalyst_Chernaya",
           "rarity": 5,
