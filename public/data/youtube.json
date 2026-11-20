@@ -1,11 +1,16 @@
 {
-  "updatedAt": "2026-11-19T16:37:19.110Z",
+  "updatedAt": "2026-11-20T01:18:51.730Z",
   "channel": {
     "id": "UCk1RTSRukrwZ4yp9howY21A",
     "handle": "LadySara01",
     "url": "https://www.youtube.com/@LadySara01"
   },
   "videos": [
+    {
+      "id": "1wL2yO0zWtA",
+      "title": "The Crystal City in the Gorge's Depths | World Quest Walkthrough | Genshin Impact 7.2",
+      "published": "2026-11-19T17:00:33+00:00"
+    },
     {
       "id": "h0OciI0d7dQ",
       "title": "Abismo 7.2",
@@ -30,11 +35,6 @@
       "id": "Q8zQb_jgugw",
       "title": "Estigia 7.2 ⚡ | Genshin Impact",
       "published": "2026-11-11T11:15:48+00:00"
-    },
-    {
-      "id": "TtIpiaq-rNI",
-      "title": "¡A por el Teatro Fantasía de NOVIEMBRE! 🎭 | Genshin Impact",
-      "published": "2026-11-01T12:24:50+00:00"
     }
   ],
   "shorts": [
