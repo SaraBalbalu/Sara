@@ -1,11 +1,11 @@
 {
-  "updatedAt": "2026-11-21T23:49:41.532Z",
+  "updatedAt": "2026-11-22T15:25:27.021Z",
   "player": {
     "nickname": "Sara",
     "signature": "She/her Youtube: @LadySara01",
     "level": 60,
     "worldLevel": 9,
-    "achievements": 1673,
+    "achievements": 1676,
     "towerFloor": 12,
     "towerLevel": 3,
     "towerStars": 36,
@@ -223,7 +223,7 @@
           "elemBonus": 0
         },
         "constellations": 3,
-        "friendship": 5,
+        "friendship": 6,
         "weapon": {
           "icon": "UI_EquipIcon_Catalyst_Chernaya",
           "rarity": 5,
